@@ -1,0 +1,102 @@
+<header class="site-header">
+  <div class="header-container">
+    <a class="logo" routerLink="/" aria-label="Ir para a página inicial" (click)="closeMobileMenu()">
+      <img src="./assets/logo/logo.jpg" alt="Blummy Brands" id="logo-img">
+    </a>
+
+    <nav class="desktop-menu" aria-label="Menu principal">
+      <ul>
+        <li class="dropdown" *ngFor="let brand of brands">
+          <span>{{ brand.name }}</span>
+
+          <ul class="dropdown-menu" *ngIf="brand.catalogs.length > 0">
+            <li *ngFor="let catalog of brand.catalogs">
+              <a [routerLink]="['/catalogo', brand.name, catalog]" routerLinkActive="active-link">
+                {{ catalog }}
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="hamburger" type="button" aria-label="Abrir menu" (click)="toggleMobileMenu($event)">
+        <span></span>
+      </button>
+
+      <a class="cart-btn" routerLink="/carrinho" aria-label="Abrir sacola" title="Sacola" (click)="closeMobileMenu()">
+        <svg class="cart-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"
+            stroke="currentColor" stroke-width="1.7" />
+          <path
+            d="M17 22C17.5523 22 18 21.5523 18 21C18 20.4477 17.5523 20 17 20C16.4477 20 16 20.4477 16 21C16 21.5523 16.4477 22 17 22Z"
+            stroke="currentColor" stroke-width="1.7" />
+          <path d="M3 3H6L8.5 17H19L21 7H7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+        <span class="cart-count" *ngIf="cartService.totalItems > 0">
+          {{ cartService.totalItems }}
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <button class="mobile-backdrop" type="button" aria-label="Fechar menu" *ngIf="isMobileMenuOpen"
+    (click)="closeMobileMenu()"></button>
+
+  <nav class="mobile-menu" [ngClass]="{ active: isMobileMenuOpen }" aria-label="Menu mobile"
+    (click)="$event.stopPropagation()">
+    <ul class="menu-list">
+      <li class="menu-item has-submenu" *ngFor="let brand of brands" [ngClass]="{ active: openSubmenu === brand.name }">
+        <button class="menu-link" type="button" (click)="toggleSubmenu(brand.name)">
+          {{ brand.name }}
+        </button>
+
+        <ul class="submenu" *ngIf="brand.catalogs.length > 0">
+          <li *ngFor="let catalog of brand.catalogs">
+            <a [routerLink]="['/catalogo', brand.name, catalog]" (click)="closeMobileMenu()">
+              {{ catalog }}
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item has-submenu" [ngClass]="{ active: openSubmenu === 'Sobre' }">
+        <button class="menu-link" type="button" (click)="toggleSubmenu('Sobre')">
+          Sobre
+        </button>
+
+        <ul class="submenu">
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/sobre">Sobre a Blummy Brands</a>
+          </li>
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/perguntas">Perguntas Frequentes</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="menu-item has-submenu" [ngClass]="{ active: openSubmenu === 'Política' }">
+        <button class="menu-link" type="button" (click)="toggleSubmenu('Política')">
+          Política
+        </button>
+
+        <ul class="submenu">
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/frete">Entrega e Frete</a>
+          </li>
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/pagamento">Pagamento</a>
+          </li>
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/troca-devolucao">Trocas e Devoluções</a>
+          </li>
+          <li>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/termosuso">Termos de Uso</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>

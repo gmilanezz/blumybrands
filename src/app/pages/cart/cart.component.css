@@ -1,0 +1,281 @@
+.cart-page {
+  padding: 3rem 5% 6rem;
+}
+
+.cart-header,
+.cart-layout,
+.empty-cart {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.breadcrumb {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-top: -20px;
+}
+
+.breadcrumb-link {
+  background: none;
+  border: 0;
+  color: #080808;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.cart-header h1,
+.empty-cart h2 {
+  color: var(--primary-purple);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cart-layout {
+  display: block;
+}
+
+.cart-items {
+  display: grid;
+  gap: 1.5rem;
+  padding: 15px 0 0 0;
+}
+
+.cart-item {
+  align-items: center;
+  background: transparent;
+  border: 2px solid #080808;
+  border-radius: 12px;
+  display: grid;
+  gap: 1rem;
+  padding: 0.5rem;
+  grid-template-columns: 110px 1fr auto auto;
+}
+
+.cart-item img {
+  border-radius: 12px;
+  height: 130px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.cart-info h2 {
+  color: var(--primary-purple);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.quantity-controls {
+  align-items: center;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.quantity-controls button,
+.remove {
+  background: #080808;
+  border: 1px solid #080808;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 0.5rem 0.8rem;
+  color: #080808;
+}
+
+.remove {
+  color: #9c1f2e;
+  font-weight: 500;
+}
+
+.cart-summary-inline {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  padding: 0;
+}
+
+.cart-summary-inline p {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cart-summary-inline .cart-total {
+  color: #080808;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.checkout-whatsapp {
+  background-color: #080808;
+  color: #D4AF37;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 8px;
+  padding: 12px 22px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.checkout-whatsapp:hover {
+  background: #D4AF37;
+  color: #080808;
+}
+
+.empty-cart {
+  background: transparent;
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+
+.summary h2 {
+  color: var(--primary-purple);
+}
+
+.total {
+  color: var(--primary-purple);
+  font-size: 1.35rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.empty-cart a {
+  background: var(--primary-purple);
+  border: 0;
+  color: var(--text-light);
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.empty-cart {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.empty-cart p {
+  margin: 0.6rem 0 2.5rem;
+}
+
+.empty-cart h2 {
+  color: #E7C766;
+}
+
+@media (max-width: 900px) {
+
+  .cart-layout,
+  .cart-item {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item img {
+    height: auto;
+  }
+}
+
+@media (max-width: 468px) {
+  .empty-cart h2 {
+    font-size: 2rem;
+  }
+}
+
+.discount-options {
+  margin: 0rem 0 1.5rem;
+  width: 100%;
+  max-width: 420px;
+}
+
+.discount-label {
+  color: #333;
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.45rem;
+}
+
+.discount-input-group {
+  display: flex;
+  width: 100%;
+}
+
+.discount-input {
+  border: 1px solid #080808;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  outline: none;
+  padding: 0.7rem 0.85rem;
+  width: 100%;
+}
+
+.discount-input:focus {
+  box-shadow: 0 0 0 2px rgba(74, 3, 95, 0.15);
+}
+
+.discount-success {
+  color: #257a3e !important;
+  font-size: 1rem !important;
+  font-weight: 700;
+  margin: 0.6rem 0 0.75rem !important;
+}
+
+
+.discount-input-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+}
+
+.discount-input {
+  border: 1px solid #080808;
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  min-width: 220px;
+}
+
+.discount-button {
+  background-color: #080808;
+  border: 1px solid #080808;
+  border-radius: 6px;
+  color: #D4AF37;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+}
+
+.discount-button:hover {
+  background-color: #D4AF37;
+  color: #080808;
+}
+
+.discount-error {
+  color: #9c1f2e !important;
+  font-size: 1rem !important;
+  font-weight: 700;
+  margin: 0.5rem 0 0.75rem !important;
+}
+
+@media (max-width: 468px) {
+  .discount-input-group {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .discount-input,
+  .discount-button {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

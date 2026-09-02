@@ -1,0 +1,81 @@
+<main class="cart-page">
+  <section class="cart-header">
+    <p class="breadcrumb">
+      <button type="button" class="breadcrumb-link" (click)="goToPreviousPage()">
+        Voltar
+      </button>
+      &gt; Sacola
+    </p>
+    <h1>Sacola</h1>
+  </section>
+
+  <section class="cart-layout" *ngIf="items.length > 0; else emptyCart">
+    <div class="cart-items">
+      <article class="cart-item" *ngFor="let item of items; let index = index">
+        <img [src]="item.product.images[0]" [alt]="item.product.name" (error)="useFallbackImage($event)">
+
+        <div class="cart-info">
+          <h2>{{ item.product.name }}</h2>
+          <p>{{ item.product.code }}</p>
+          <p *ngIf="item.selectedColor">Cor: {{ item.selectedColor }}</p>
+          <p *ngIf="item.selectedSize">Tamanho: {{ item.selectedSize }}</p>
+          <strong>{{ item.product.price | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}</strong>
+        </div>
+
+        <div class="quantity-controls">
+          <button type="button" (click)="updateQuantity(index, item.quantity - 1)">−</button>
+          <span>{{ item.quantity }}</span>
+          <button type="button" (click)="updateQuantity(index, item.quantity + 1)">+</button>
+        </div>
+
+        <button class="remove" type="button" (click)="removeItem(index)">Remover</button>
+      </article>
+    </div>
+
+    <div class="cart-summary-inline">
+      <div class="discount-options">
+        <label class="discount-label" for="discountCode">Possui um cupom de desconto?</label>
+
+        <div class="discount-input-group">
+          <input id="discountCode" class="discount-input" type="text" placeholder="Digite seu cupom"
+            [value]="discountCode" (input)="updateDiscountCode($event)" (keyup.enter)="verifyDiscountCode()"
+            autocomplete="off">
+
+          <button type="button" class="discount-button" (click)="verifyDiscountCode()">
+            Verificar
+          </button>
+        </div>
+
+        <p class="discount-success" *ngIf="discountChecked && discountValid">
+          Cupom aplicado! Você ganhou 5% de desconto.
+        </p>
+
+        <p class="discount-error" *ngIf="discountChecked && !discountValid">
+          Cupom inválido.
+        </p>
+      </div>
+        
+      <p>
+        Itens:
+        {{ cartService.totalItems }}
+      </p>
+      <p class="cart-total">
+        Total:
+        {{ finalTotalPrice | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}
+      </p>
+
+      <a class="checkout-whatsapp" [href]="checkoutWhatsappUrl" target="_blank" rel="noopener"
+        (click)="clearCartAfterCheckout()">
+        Finalizar compra pelo WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <ng-template #emptyCart>
+    <section class="empty-cart">
+      <h2>Sua sacola está vazia</h2>
+      <p>Experimente nossas peças e adicione-as na sacola!</p>
+      <a routerLink="/">Voltar Página Inicial</a>
+    </section>
+  </ng-template>
+</main>
