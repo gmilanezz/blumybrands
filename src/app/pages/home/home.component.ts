@@ -29,18 +29,18 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: '/assets/catalogs/esmeral/basic/39746.jpg',
-      mobileImage: '/assets/catalogs/esmeral/basic/39746-1.jpg',
+      desktopImage: 'assets/catalogs/esmeral/basic/39746.jpg',
+      mobileImage: 'assets/catalogs/esmeral/basic/39746-1.jpg',
       alt: 'Catálogo Esmeral Basic',
       link: '/catalogo/Esmeral/Basic'
     }
   ];
 
   readonly heroSlides = [
-    '/assets/catalogs/esmeral/basic/39649.jpg',
-    '/assets/catalogs/esmeral/basic/39663.jpg',
-    '/assets/catalogs/esmeral/basic/39625.jpg',
-    '/assets/catalogs/esmeral/basic/38797.jpg'
+    'assets/catalogs/esmeral/basic/39649.jpg',
+    'assets/catalogs/esmeral/basic/39663.jpg',
+    'assets/catalogs/esmeral/basic/39625.jpg',
+    'assets/catalogs/esmeral/basic/38797.jpg'
   ];
 
   private catalogSubscription?: Subscription;

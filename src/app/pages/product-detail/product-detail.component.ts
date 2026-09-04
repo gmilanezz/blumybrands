@@ -72,6 +72,6 @@ export class ProductDetailComponent implements OnInit {
   useFallbackImage(event: Event): void {
     const image = event.target as HTMLImageElement;
     image.onerror = null;
-    image.src = '/assets/catalogs/esmeral/basic/39746.jpg';
+    image.src = 'assets/catalogs/esmeral/basic/39746.jpg';
   }
 }

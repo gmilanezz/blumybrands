@@ -270,11 +270,11 @@ export class AdminComponent implements OnInit, OnDestroy {
     if (this.form.brand.trim().toLowerCase() === 'esmeral' && this.form.catalog.trim().toLowerCase() === 'basic') {
       return Array.from(
         { length: total },
-        (_, index) => `/assets/catalogs/esmeral/basic/${code}${index === 0 ? '' : `-${index}`}.jpg`
+        (_, index) => `assets/catalogs/esmeral/basic/${code}${index === 0 ? '' : `-${index}`}.jpg`
       );
     }
 
-    return Array.from({ length: total }, () => '/assets/catalogs/esmeral/basic/39746.jpg');
+    return Array.from({ length: total }, () => 'assets/catalogs/esmeral/basic/39746.jpg');
   }
 
   private parseColors(colorsText: string): ProductColor[] {

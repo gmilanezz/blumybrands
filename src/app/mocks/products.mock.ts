@@ -2,7 +2,7 @@ import { Product } from '../models/product.model';
 
 export const MOCK_PRODUCTS: Product[] = [
   {
-    id: 29,
+    id: 1,
     code: "8154",
     name: "Blusa Elis",
     slug: "blusa-elis",
@@ -13,9 +13,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Elis do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -24,11 +24,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 30,
+    id: 2,
     code: "8155",
     name: "Saia Elis",
     slug: "saia-elis",
@@ -39,7 +39,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Elis do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -48,11 +48,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 31,
+    id: 3,
     code: "8104",
     name: "Blusa Fani",
     slug: "blusa-fani",
@@ -63,9 +63,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Fani do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -74,11 +74,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 32,
+    id: 4,
     code: "8105",
     name: "Calça Fani",
     slug: "calca-fani",
@@ -89,7 +89,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Fani do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -98,11 +98,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 33,
+    id: 5,
     code: "8095",
     name: "Blusa Sophia",
     slug: "blusa-sophia",
@@ -113,11 +113,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Sophia do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Algodão",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -125,11 +125,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 34,
+    id: 6,
     code: "8094",
     name: "Short Sophia",
     slug: "short-sophia",
@@ -140,7 +140,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Short Sophia do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Algodão",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -148,11 +148,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 35,
+    id: 7,
     code: "8077",
     name: "Vestido Francine",
     slug: "vestido-francine",
@@ -163,9 +163,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Francine do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscose",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -174,11 +174,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 36,
+    id: 8,
     code: "8078",
     name: "Blusa Francine",
     slug: "blusa-francine",
@@ -189,9 +189,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Francine do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscose",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -200,11 +200,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 37,
+    id: 9,
     code: "8144",
     name: "Blusa Diana",
     slug: "blusa-diana",
@@ -215,10 +215,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Diana do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria Listrada",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Vermelho", hex: "#C62828" },
@@ -226,11 +226,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 38,
+    id: 10,
     code: "8145",
     name: "Calça Diana",
     slug: "calca-diana",
@@ -241,7 +241,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Diana do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria Listrada",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Vermelho", hex: "#C62828" },
@@ -249,11 +249,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 39,
+    id: 11,
     code: "8160",
     name: "Blusa Lori",
     slug: "blusa-lori",
@@ -264,7 +264,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Lori do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Twill",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -273,11 +273,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 40,
+    id: 12,
     code: "8161",
     name: "Calça Lori",
     slug: "calca-lori",
@@ -288,7 +288,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Lori do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Twill",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -297,11 +297,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 41,
+    id: 13,
     code: "8093",
     name: "Calça Sophia",
     slug: "calca-sophia",
@@ -312,8 +312,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Sophia do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria de Viscose",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -322,11 +322,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 42,
+    id: 14,
     code: "8159",
     name: "Macacão Lori",
     slug: "macacao-lori",
@@ -337,11 +337,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Macacão Lori do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Twill",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -350,11 +350,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 43,
+    id: 15,
     code: "8136",
     name: "Regata Manu",
     slug: "regata-manu",
@@ -365,8 +365,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Manu do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Creme", hex: "#F7E9CF" },
@@ -375,11 +375,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 44,
+    id: 16,
     code: "8137",
     name: "Calça Manu",
     slug: "calca-manu",
@@ -390,7 +390,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Manu do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Creme", hex: "#F7E9CF" },
@@ -399,11 +399,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 45,
+    id: 17,
     code: "8146",
     name: "Colete Geórgia",
     slug: "colete-georgia",
@@ -414,9 +414,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Colete Geórgia do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria Twill",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Salmão", hex: "#F4A89A" },
@@ -425,11 +425,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 46,
+    id: 18,
     code: "8147",
     name: "Calça Geórgia",
     slug: "calca-georgia",
@@ -440,7 +440,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Geórgia do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Alfaiataria Twill",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Salmão", hex: "#F4A89A" },
@@ -449,11 +449,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 47,
+    id: 19,
     code: "8165",
     name: "Regata Isa",
     slug: "regata-isa",
@@ -464,9 +464,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Isa do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -475,11 +475,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 48,
+    id: 20,
     code: "8163",
     name: "Saia Isa",
     slug: "saia-isa",
@@ -490,8 +490,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Isa do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -500,11 +500,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 49,
+    id: 21,
     code: "8123",
     name: "Vestido Maira",
     slug: "vestido-maira",
@@ -515,9 +515,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Maira do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Malha Cotelê",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -526,11 +526,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 50,
+    id: 22,
     code: "8164",
     name: "Blusa Isa",
     slug: "blusa-isa",
@@ -541,8 +541,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Isa do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -551,11 +551,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 51,
+    id: 23,
     code: "8176",
     name: "Blusa Amber",
     slug: "blusa-amber",
@@ -566,8 +566,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Amber do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -575,11 +575,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 52,
+    id: 24,
     code: "8177",
     name: "Calça Amber",
     slug: "calca-amber",
@@ -590,8 +590,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Amber do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -599,11 +599,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 53,
+    id: 25,
     code: "8157",
     name: "Blusa Capa Mirela",
     slug: "blusa-capa-mirela",
@@ -614,9 +614,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Capa Mirela do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscose",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -625,11 +625,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 54,
+    id: 26,
     code: "8158",
     name: "Calça Mirela",
     slug: "calca-mirela",
@@ -640,9 +640,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Mirela do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Viscose",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -651,11 +651,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 55,
+    id: 27,
     code: "8054",
     name: "Blusa Tati",
     slug: "blusa-tati",
@@ -666,7 +666,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Tati do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Texturizado",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -675,11 +675,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 56,
+    id: 28,
     code: "8055",
     name: "Calça Tati",
     slug: "calca-tati",
@@ -690,7 +690,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Tati do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Texturizado",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -699,11 +699,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 57,
+    id: 29,
     code: "8098",
     name: "Body Jess",
     slug: "body-jess",
@@ -714,7 +714,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Jess do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Malha Canelada",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -724,11 +724,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 58,
+    id: 30,
     code: "8132",
     name: "Regata Mariana",
     slug: "regata-mariana",
@@ -739,8 +739,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Mariana do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Risca de Giz",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: "#D9C8AD" },
@@ -748,11 +748,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 59,
+    id: 31,
     code: "8133",
     name: "Calça Mariana",
     slug: "calca-mariana",
@@ -763,7 +763,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Mariana do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Liocel Risca de Giz",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Bege", hex: "#D9C8AD" },
@@ -771,11 +771,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 60,
+    id: 32,
     code: "8162",
     name: "Body Isa",
     slug: "body-isa",
@@ -786,7 +786,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Isa do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Renda",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -795,11 +795,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 61,
+    id: 33,
     code: "8505",
     name: "Regata Tricot",
     slug: "regata-tricot",
@@ -810,7 +810,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Tricot do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Tricot",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -819,11 +819,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 62,
+    id: 34,
     code: "8508",
     name: "Calça Isabel",
     slug: "calca-isabel",
@@ -834,18 +834,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Isabel do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Denim",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Marinho", hex: "#0B1F3A" },
     ],
     sizes: ["36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 63,
+    id: 35,
     code: "8124",
     name: "Regata Dupla Maira",
     slug: "regata-dupla-maira",
@@ -856,7 +856,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Dupla Maira do catálogo Lucentia New Summer Collection 03 08.",
     composition: "Malha Cotelê",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -866,11 +866,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-03"
   },
   {
-    id: 64,
+    id: 36,
     code: '39689',
     name: "Blusa Peplum Sarja Listrada",
     slug: 'blusa-peplum-sarja-listrada-39689',
@@ -881,8 +881,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa peplum em sarja listrada.",
     composition: "76% algodão, 22% poliéster e 2% elastano",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#C6A078' },
@@ -890,11 +890,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 65,
+    id: 37,
     code: '39648',
     name: "Calça Sarja Listras",
     slug: 'calca-sarja-listras-39648',
@@ -905,7 +905,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça em sarja listrada.",
     composition: "76% algodão, 22% poliéster e 2% elastano",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#C6A078' },
@@ -913,11 +913,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 66,
+    id: 38,
     code: '39697',
     name: "Shorts Sarja Listrada",
     slug: 'shorts-sarja-listrada-39697',
@@ -928,7 +928,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Shorts em sarja listrada.",
     composition: "76% algodão, 22% poliéster e 2% elastano",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#C6A078' },
@@ -936,11 +936,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 67,
+    id: 39,
     code: '39630',
     name: "Blusa Cetim com Renda",
     slug: 'blusa-cetim-com-renda-39630',
@@ -951,8 +951,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa em cetim com detalhe de renda.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Rosa", hex: '#D8B8BE' },
@@ -960,11 +960,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 68,
+    id: 40,
     code: '39628',
     name: "Vestido Assimétrico Malha",
     slug: 'vestido-assimetrico-malha-39628',
@@ -975,8 +975,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido assimétrico em malha.",
     composition: "92% poliéster e 8% elastano",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#D8C9AE' },
@@ -984,11 +984,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 69,
+    id: 41,
     code: '39699',
     name: "Vestido Tubo Malha",
     slug: 'vestido-tubo-malha-39699',
@@ -999,8 +999,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido tubo em malha.",
     composition: "92% poliéster e 8% elastano",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#D8C9AE' },
@@ -1008,11 +1008,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 70,
+    id: 42,
     code: '39508',
     name: "Blusa Peplum Alfaiataria",
     slug: 'blusa-peplum-alfaiataria-39508',
@@ -1023,8 +1023,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa peplum em alfaiataria.",
     composition: "95% poliéster e 5% elastano",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#E7DFD0' },
@@ -1033,11 +1033,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 71,
+    id: 43,
     code: '39530',
     name: "Calça Balloon Alfaiataria",
     slug: 'calca-balloon-alfaiataria-39530',
@@ -1048,9 +1048,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça balloon em alfaiataria.",
     composition: "95% poliéster e 5% elastano",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#E7DFD0' },
@@ -1059,11 +1059,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 72,
+    id: 44,
     code: '39519',
     name: "Top sem Alças Alfaiataria",
     slug: 'top-sem-alcas-alfaiataria-39519',
@@ -1074,7 +1074,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top sem alças em alfaiataria.",
     composition: "95% poliéster e 5% elastano",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#E7DFD0' },
@@ -1083,11 +1083,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 73,
+    id: 45,
     code: '39650',
     name: "Blusa Um Ombro Tule",
     slug: 'blusa-um-ombro-tule-39650',
@@ -1098,7 +1098,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa de um ombro em tule.",
     composition: "96% poliéster e 4% elastano",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Rosa", hex: '#E5B9C2' },
@@ -1107,11 +1107,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 74,
+    id: 46,
     code: '39678',
     name: "Blusa Manga Longa Renda",
     slug: 'blusa-manga-longa-renda-39678',
@@ -1122,8 +1122,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa de manga longa em renda.",
     composition: "65% algodão e 35% poliamida",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Creme", hex: '#F3EBDD' },
@@ -1131,11 +1131,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 75,
+    id: 47,
     code: '39654',
     name: "Calça Aladin Peplum",
     slug: 'calca-aladin-peplum-39654',
@@ -1146,7 +1146,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça aladin peplum em viscolinho.",
     composition: "Não informada no catálogo (tecido: viscolinho)",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Branco", hex: '#F7F7F4' },
@@ -1156,11 +1156,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 76,
+    id: 48,
     code: '38854',
     name: "Vestido Alça Laço Poá",
     slug: 'vestido-alca-laco-poa-38854',
@@ -1171,8 +1171,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido de alças com laço e estampa poá.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#EAD9AD' },
@@ -1180,11 +1180,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 77,
+    id: 49,
     code: '38789',
     name: "Blusa Peplum Poá",
     slug: 'blusa-peplum-poa-38789',
@@ -1195,8 +1195,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa peplum com estampa poá em chiffon.",
     composition: "Não informada no catálogo (tecido: chiffon)",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#F2E3B5' },
@@ -1204,11 +1204,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 78,
+    id: 50,
     code: '39543',
     name: "Calça Barrel Cós Elástico",
     slug: 'calca-barrel-cos-elastico-39543',
@@ -1219,8 +1219,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça barrel com cós elástico em alfaiataria.",
     composition: "92% viscose e 8% poliéster",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#F1E1B4' },
@@ -1229,11 +1229,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 79,
+    id: 51,
     code: '39540',
     name: "Blusa Degagê Comprida",
     slug: 'blusa-degage-comprida-39540',
@@ -1244,8 +1244,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa comprida com decote degagê em alfaiataria.",
     composition: "92% viscose e 8% poliéster",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#EADDBB' },
@@ -1254,11 +1254,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 80,
+    id: 52,
     code: '39535',
     name: "Calça Wide Alfaiataria",
     slug: 'calca-wide-alfaiataria-39535',
@@ -1269,7 +1269,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça wide em alfaiataria.",
     composition: "92% viscose e 8% poliéster",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#EADDBB' },
@@ -1278,11 +1278,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 81,
+    id: 53,
     code: '39513',
     name: "Top sem Alças Couro P.U",
     slug: 'top-sem-alcas-couro-p-u-39513',
@@ -1293,8 +1293,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top sem alças em couro P.U.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Marrom", hex: '#633A2E' },
@@ -1302,11 +1302,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 82,
+    id: 54,
     code: '39510',
     name: "Saia Midi Couro P.U",
     slug: 'saia-midi-couro-p-u-39510',
@@ -1317,8 +1317,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia midi em couro P.U.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Marrom", hex: '#633A2E' },
@@ -1326,11 +1326,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ['P', 'M', 'G'],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-03',
   },
   {
-    id: 109,
+    id: 55,
     code: "38804",
     name: "Regata Alça Canelado",
     slug: "regata-alca-canelado-38804",
@@ -1341,7 +1341,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata de alça em tecido canelado.",
     composition: "95% viscose e 5% elastano",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1352,11 +1352,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 110,
+    id: 56,
     code: "39618",
     name: "Blusa Assimétrica Roletês",
     slug: "blusa-assimetrica-roletes-39618",
@@ -1367,7 +1367,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa assimétrica com roletês em malha.",
     composition: "96% poliéster e 4% elastano",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1377,11 +1377,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 111,
+    id: 57,
     code: "39641",
     name: "Camisa Amarração Listras",
     slug: "camisa-amarracao-listras-39641",
@@ -1392,7 +1392,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Camisa listrada em tricoline com amarração.",
     composition: "100% algodão",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#E6D27A' },
@@ -1400,11 +1400,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 112,
+    id: 58,
     code: "39646",
     name: "Blusa Peplum Malha",
     slug: "blusa-peplum-malha-tricoline-39646",
@@ -1415,7 +1415,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa peplum em malha com detalhe em tricoline.",
     composition: "92% poliéster e 8% elastano",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#CFC3B2' },
@@ -1423,11 +1423,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 113,
+    id: 59,
     code: "39603",
     name: "Top sem Alças Assimétrico",
     slug: "top-sem-alcas-assimetrico-39603",
@@ -1438,7 +1438,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top sem alças assimétrico em malha.",
     composition: "92% poliéster e 8% elastano",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#CFC3B2' },
@@ -1446,11 +1446,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 114,
+    id: 60,
     code: "39590",
     name: "Top sem Alças Sarja",
     slug: "top-sem-alcas-sarja-39590",
@@ -1461,8 +1461,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top sem alças em sarja.",
     composition: "97% algodão e 3% elastano",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1471,11 +1471,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 115,
+    id: 61,
     code: "39597",
     name: "Calça Capri Sarja",
     slug: "calca-capri-sarja-39597",
@@ -1486,8 +1486,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça capri em sarja.",
     composition: "97% algodão e 3% elastano",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1496,11 +1496,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 116,
+    id: 62,
     code: "39695",
     name: "Blusa Frente Única Liocel",
     slug: "blusa-frente-unica-liocel-39695",
@@ -1511,7 +1511,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa frente única em liocel.",
     composition: "90,1% liocel e 9,9% linho",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1520,11 +1520,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 117,
+    id: 63,
     code: "39694",
     name: "Calça Ampla Liocel",
     slug: "calca-ampla-liocel-39694",
@@ -1535,7 +1535,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça ampla em liocel.",
     composition: "90,1% liocel e 9,9% linho",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1544,11 +1544,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 118,
+    id: 64,
     code: "39661",
     name: "Calça Cós Virado",
     slug: "calca-cos-virado-39661",
@@ -1559,7 +1559,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça com cós virado em liocel.",
     composition: "90,1% liocel e 9,9% linho",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1568,11 +1568,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 119,
+    id: 65,
     code: "39670",
     name: "Macacão 1 Ombro Linho",
     slug: "macacao-1-ombro-linho-39670",
@@ -1583,7 +1583,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Macacão de um ombro em viscolinho.",
     composition: "55% viscose e 45% linho",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1593,11 +1593,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 120,
+    id: 66,
     code: "39555",
     name: "Blusa Costas Degagê",
     slug: "blusa-costas-degage-39555",
@@ -1608,8 +1608,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa de alfaiataria com decote degagê nas costas.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1618,11 +1618,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 121,
+    id: 67,
     code: "39557",
     name: "Saia Alfaiataria",
     slug: "saia-alfaiataria-39557",
@@ -1633,7 +1633,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia em alfaiataria.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1642,11 +1642,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 122,
+    id: 68,
     code: "39626",
     name: "Body Franzido Malha",
     slug: "body-franzido-malha-39626",
@@ -1657,7 +1657,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body franzido em malha.",
     composition: "87% poliamida e 13% elastano",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#E8D07A' },
@@ -1666,11 +1666,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 123,
+    id: 69,
     code: "39666",
     name: "Túnica Assimétrica Alfaiataria",
     slug: "tunica-assimetrica-alfaiataria-39666",
@@ -1681,7 +1681,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Túnica assimétrica em alfaiataria.",
     composition: "96% poliéster e 4% elastano",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#E8D07A' },
@@ -1690,11 +1690,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 124,
+    id: 70,
     code: "39712",
     name: "Vestido sem Alças Liocel",
     slug: "vestido-sem-alcas-liocel-39712",
@@ -1705,8 +1705,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido sem alças em liocel, com alças removíveis.",
     composition: "60% liocel e 40% viscose",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Mostarda", hex: '#B98B35' },
@@ -1715,11 +1715,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 125,
+    id: 71,
     code: "39550",
     name: "Vestido Longo Blusê",
     slug: "vestido-longo-bluse-39550",
@@ -1730,8 +1730,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido longo blusê em cetim.",
     composition: "100% viscose",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#C9905F' },
@@ -1739,11 +1739,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 126,
+    id: 72,
     code: "39698",
     name: "Vestido Curto Malha",
     slug: "vestido-curto-malha-39698",
@@ -1754,7 +1754,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido curto em malha.",
     composition: "95% poliamida e 5% elastano",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: '#F0E1A2' },
@@ -1763,11 +1763,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 127,
+    id: 73,
     code: "39708",
     name: "Vestido Cetim + Paetê",
     slug: "vestido-cetim-paete-39708",
@@ -1778,7 +1778,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido em cetim com detalhe de paetê.",
     composition: "100% poliéster",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Ferrugem", hex: '#8D3F2D' },
@@ -1786,11 +1786,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 128,
+    id: 74,
     code: "39720",
     name: "Corset Sarja",
     slug: "corset-sarja-39720",
@@ -1801,18 +1801,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Corset em sarja jeans.",
     composition: "100% algodão",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
     ],
     sizes: ["34", "36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 129,
+    id: 75,
     code: "39716",
     name: "Calça Aladin Sarja",
     slug: "calca-aladin-sarja-39716",
@@ -1823,18 +1823,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça aladin em sarja jeans.",
     composition: "100% algodão",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
     ],
     sizes: ["34", "36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 130,
+    id: 76,
     code: "39607",
     name: "Calça Jeans New Baggy Balloon",
     slug: "calca-jeans-new-baggy-balloon-39607",
@@ -1845,18 +1845,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça jeans modelo New Baggy Balloon.",
     composition: "100% algodão",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: '#6F8495' },
     ],
     sizes: ["34", "36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 131,
+    id: 77,
     code: "39572",
     name: "Calça Baggy Prega",
     slug: "calca-baggy-prega-39572",
@@ -1867,8 +1867,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça baggy com pregas em alfaiataria.",
     composition: "50% algodão, 47% poliamida e 3% elastano",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off White", hex: '#F4F1E8' },
@@ -1878,11 +1878,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M", "G"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
   {
-    id: 132,
+    id: 78,
     code: "39589",
     name: "Trench Coat com Pregas",
     slug: "trench-coat-com-pregas-39589",
@@ -1893,7 +1893,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Trench coat com pregas em sarja.",
     composition: "97% poliéster e 3% elastano",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Bege", hex: '#B98F66' },
@@ -1901,11 +1901,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["P", "M"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: '2026-08-10',
   },
- {
-    id: 133,
+  {
+    id: 79,
     code: "8216",
     name: "Vestido Tali",
     slug: "vestido-tali",
@@ -1916,10 +1916,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Tali do catálogo Mamá Castilho.",
     composition: "Chifon Estampado",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Nude", hex: "#D8C1A8" },
@@ -1927,11 +1927,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 134,
+    id: 80,
     code: "8207",
     name: "Regata Rita",
     slug: "regata-rita",
@@ -1942,11 +1942,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Rita do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -1955,11 +1955,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 135,
+    id: 81,
     code: "8208",
     name: "Calça Rita",
     slug: "calca-rita",
@@ -1970,11 +1970,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Rita do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -1983,11 +1983,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 136,
+    id: 82,
     code: "8214",
     name: "Regata Yara",
     slug: "regata-yara",
@@ -1998,9 +1998,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Yara do catálogo Mamá Castilho.",
     composition: "Satin",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Areia", hex: "#D8C7AE" },
@@ -2009,11 +2009,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 137,
+    id: 83,
     code: "8215",
     name: "Calça Yara",
     slug: "calca-yara",
@@ -2024,9 +2024,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Yara do catálogo Mamá Castilho.",
     composition: "Satin",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Areia", hex: "#D8C7AE" },
@@ -2035,11 +2035,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 138,
+    id: 84,
     code: "8509",
     name: "Jaqueta Beatriz",
     slug: "jaqueta-beatriz",
@@ -2050,19 +2050,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Jaqueta Beatriz do catálogo Mamá Castilho.",
     composition: "Sarja",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
     ],
     sizes: ["36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 139,
+    id: 85,
     code: "8187",
     name: "Regata Nina",
     slug: "regata-nina",
@@ -2073,19 +2073,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Nina do catálogo Mamá Castilho.",
     composition: "Paetê",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Aveia", hex: "#D8CDB8" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 140,
+    id: 86,
     code: "8188",
     name: "Short Nina",
     slug: "short-nina",
@@ -2096,19 +2096,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Short Nina do catálogo Mamá Castilho.",
     composition: "Paetê",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Aveia", hex: "#D8CDB8" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 141,
+    id: 87,
     code: "8211",
     name: "Vestido Sophi",
     slug: "vestido-sophi",
@@ -2119,9 +2119,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Sophi do catálogo Mamá Castilho.",
     composition: "Tricoline",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -2130,11 +2130,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 142,
+    id: 88,
     code: "8205",
     name: "Blazer Rita",
     slug: "blazer-rita",
@@ -2145,8 +2145,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blazer Rita do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -2155,11 +2155,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 143,
+    id: 89,
     code: "8142",
     name: "Regata Dupla Jade",
     slug: "regata-dupla-jade",
@@ -2170,8 +2170,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Dupla Jade do catálogo Mamá Castilho.",
     composition: "Viscose Canelada",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off/Amarelo", hex: "#F8F3EA" },
@@ -2179,11 +2179,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 144,
+    id: 90,
     code: "8206",
     name: "Bermuda Rita",
     slug: "bermuda-rita",
@@ -2194,9 +2194,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Bermuda Rita do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -2205,11 +2205,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 145,
+    id: 91,
     code: "8203",
     name: "Jaqueta Liz",
     slug: "jaqueta-liz",
@@ -2220,11 +2220,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Jaqueta Liz do catálogo Mamá Castilho.",
     composition: "Viscose Texturizada",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Verde", hex: "#90B255" },
@@ -2233,11 +2233,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 146,
+    id: 92,
     code: "8202",
     name: "Blusa Liz",
     slug: "blusa-liz",
@@ -2248,9 +2248,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Liz do catálogo Mamá Castilho.",
     composition: "Viscose Texturizada",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Verde", hex: "#90B255" },
@@ -2259,11 +2259,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 147,
+    id: 93,
     code: "8204",
     name: "Calça Liz",
     slug: "calca-liz",
@@ -2274,13 +2274,13 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Liz do catálogo Mamá Castilho.",
     composition: "Viscose Texturizada",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Verde", hex: "#90B255" },
@@ -2289,11 +2289,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 148,
+    id: 94,
     code: "8217",
     name: "Blusa Celia",
     slug: "blusa-celia",
@@ -2304,11 +2304,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Celia do catálogo Mamá Castilho.",
     composition: "Tricoline de Alogdão",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2318,11 +2318,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 149,
+    id: 95,
     code: "8218",
     name: "Calça Celia",
     slug: "calca-celia",
@@ -2333,11 +2333,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Celia do catálogo Mamá Castilho.",
     composition: "Tricoline de Alogdão",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2347,11 +2347,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 150,
+    id: 96,
     code: "8200",
     name: "Blusa Lola",
     slug: "blusa-lola",
@@ -2362,12 +2362,12 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Lola do catálogo Mamá Castilho.",
     composition: "Tricoline",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -2375,11 +2375,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 151,
+    id: 97,
     code: "8201",
     name: "Calça Lola",
     slug: "calca-lola",
@@ -2390,11 +2390,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Lola do catálogo Mamá Castilho.",
     composition: "Tricoline",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -2402,11 +2402,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 152,
+    id: 98,
     code: "8212",
     name: "Vestido Celia",
     slug: "vestido-celia",
@@ -2417,10 +2417,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Celia do catálogo Mamá Castilho.",
     composition: "Tricoline de Alogdão",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2430,11 +2430,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 153,
+    id: 99,
     code: "8173",
     name: "Body Many",
     slug: "body-many",
@@ -2445,9 +2445,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Many do catálogo Mamá Castilho.",
     composition: "Malha Poliamida",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2456,11 +2456,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 154,
+    id: 100,
     code: "8135",
     name: "Vestido Ju",
     slug: "vestido-ju",
@@ -2471,9 +2471,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Ju do catálogo Mamá Castilho.",
     composition: "Malha Tricot",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Aveia", hex: "#D8CDB8" },
@@ -2482,11 +2482,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 155,
+    id: 101,
     code: "8514",
     name: "Cardigan Listrado Mamá",
     slug: "cardigan-listrado-mama",
@@ -2497,11 +2497,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Cardigan Listrado Mamá do catálogo Mamá Castilho.",
     composition: "Tricot",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -2509,11 +2509,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["PP", "P", "M"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 156,
+    id: 102,
     code: "8195",
     name: "Top Fiorela",
     slug: "top-fiorela",
@@ -2524,8 +2524,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top Fiorela do catálogo Mamá Castilho.",
     composition: "Alfaiataria Twill",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Areia", hex: "#D8C7AE" },
@@ -2534,11 +2534,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 157,
+    id: 103,
     code: "8196",
     name: "Calça Fiorela",
     slug: "calca-fiorela",
@@ -2549,8 +2549,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Fiorela do catálogo Mamá Castilho.",
     composition: "Alfaiataria Twill",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Areia", hex: "#D8C7AE" },
@@ -2559,11 +2559,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 158,
+    id: 104,
     code: "8191",
     name: "Blusa Agnes",
     slug: "blusa-agnes",
@@ -2574,11 +2574,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Agnes do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2587,11 +2587,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 159,
+    id: 105,
     code: "8189",
     name: "Calça Agnes",
     slug: "calca-agnes",
@@ -2602,11 +2602,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Agnes do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2615,11 +2615,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 160,
+    id: 106,
     code: "8115",
     name: "Blusa Brenda",
     slug: "blusa-brenda",
@@ -2630,13 +2630,13 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Brenda do catálogo Mamá Castilho.",
     composition: "Alfaiatria de Viscose",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2646,11 +2646,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 161,
+    id: 107,
     code: "8117",
     name: "Short Brenda",
     slug: "short-brenda",
@@ -2661,13 +2661,13 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Short Brenda do catálogo Mamá Castilho.",
     composition: "Alfaiatria de Viscose",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2677,11 +2677,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 162,
+    id: 108,
     code: "8213",
     name: "T-Shirt Hamptons",
     slug: "t-shirt-hamptons",
@@ -2692,13 +2692,13 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "T-Shirt Hamptons do catálogo Mamá Castilho.",
     composition: "Malha de Algodão",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2707,11 +2707,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 163,
+    id: 109,
     code: "8224",
     name: "Blusa Mia",
     slug: "blusa-mia",
@@ -2722,9 +2722,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Mia do catálogo Mamá Castilho.",
     composition: "Malha de Algodão",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2734,11 +2734,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 164,
+    id: 110,
     code: "8190",
     name: "Saia Agnes",
     slug: "saia-agnes",
@@ -2749,9 +2749,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Agnes do catálogo Mamá Castilho.",
     composition: "Viscolinho",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2760,11 +2760,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 165,
+    id: 111,
     code: "8143",
     name: "Blusa Jade",
     slug: "blusa-jade",
@@ -2775,9 +2775,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Jade do catálogo Mamá Castilho.",
     composition: "Viscose Canelada",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -2786,11 +2786,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 166,
+    id: 112,
     code: "8116",
     name: "Saia Brenda",
     slug: "saia-brenda",
@@ -2801,8 +2801,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Brenda do catálogo Mamá Castilho.",
     composition: "Alfaiatria de Viscose",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2812,11 +2812,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 167,
+    id: 113,
     code: "8209",
     name: "Blusa Paula",
     slug: "blusa-paula",
@@ -2827,10 +2827,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Paula do catálogo Mamá Castilho.",
     composition: "Renda",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2838,11 +2838,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 168,
+    id: 114,
     code: "8210",
     name: "Calça Paula",
     slug: "calca-paula",
@@ -2853,10 +2853,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Paula do catálogo Mamá Castilho.",
     composition: "Renda",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
@@ -2864,11 +2864,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 169,
+    id: 115,
     code: "8134",
     name: "Blusa Ju",
     slug: "blusa-ju",
@@ -2879,9 +2879,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Ju do catálogo Mamá Castilho.",
     composition: "Malha Tricot",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Aveia", hex: "#D8CDB8" },
@@ -2890,11 +2890,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 170,
+    id: 116,
     code: "8506",
     name: "Calça Baloon Beatriz",
     slug: "calca-baloon-beatriz",
@@ -2905,20 +2905,20 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Baloon Beatriz do catálogo Mamá Castilho.",
     composition: "Sarja",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off", hex: "#F8F3EA" },
     ],
     sizes: ["36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 171,
+    id: 117,
     code: "bone-the-hamptons",
     name: "Boné The Hamptons",
     slug: "bone-the-hamptons",
@@ -2929,7 +2929,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Boné The Hamptons do catálogo Mamá Castilho.",
     composition: "Sarja",
     images: [
-      './assets/teste/img3.jpg'
+      '.assets/teste/img3.jpg'
     ],
     colors: [
       { name: "Off/Rosa", hex: "#F8F3EA" },
@@ -2938,11 +2938,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: [],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-23"
   },
   {
-    id: 172,
+    id: 118,
     code: "39746",
     name: "Jardineira Sarja",
     slug: "jardineira-sarja",
@@ -2953,8 +2953,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Jardineira Sarja do catálogo Basic.",
     composition: "Sarja",
     images: [
-      '/assets/catalogs/esmeral/basic/39746.jpg',
-      '/assets/catalogs/esmeral/basic/39746-1.jpg',
+      'assets/catalogs/esmeral/basic/39746.jpg',
+      'assets/catalogs/esmeral/basic/39746-1.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -2965,7 +2965,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 173,
+    id: 119,
     code: "39593",
     name: "Blusa Tricot Polo Textura",
     slug: "blusa-tricot-polo-textura",
@@ -2976,8 +2976,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Tricot Polo Textura do catálogo Basic.",
     composition: "Tricot",
     images: [
-      '/assets/catalogs/esmeral/basic/39593.jpg',
-      '/assets/catalogs/esmeral/basic/39593-1.jpg',
+      'assets/catalogs/esmeral/basic/39593.jpg',
+      'assets/catalogs/esmeral/basic/39593-1.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -2988,7 +2988,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 174,
+    id: 120,
     code: "39649",
     name: "Saia Cargo Sarja",
     slug: "saia-cargo-sarja",
@@ -2999,10 +2999,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Cargo Sarja do catálogo Basic.",
     composition: "Sarja",
     images: [
-      '/assets/catalogs/esmeral/basic/39649.jpg',
-      '/assets/catalogs/esmeral/basic/39649-1.jpg',
-      '/assets/catalogs/esmeral/basic/39649-2.jpg',
-      '/assets/catalogs/esmeral/basic/39649-3.jpg',
+      'assets/catalogs/esmeral/basic/39649.jpg',
+      'assets/catalogs/esmeral/basic/39649-1.jpg',
+      'assets/catalogs/esmeral/basic/39649-2.jpg',
+      'assets/catalogs/esmeral/basic/39649-3.jpg',
     ],
     colors: [
       { name: "Caramelo", hex: "#C58A45" },
@@ -3015,7 +3015,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 175,
+    id: 121,
     code: "39214",
     name: "Blusa Tricot Rendada",
     slug: "blusa-tricot-rendada",
@@ -3026,10 +3026,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Tricot Rendada do catálogo Basic.",
     composition: "Tricot",
     images: [
-      '/assets/catalogs/esmeral/basic/39214.jpg',
-      '/assets/catalogs/esmeral/basic/39214-1.jpg',
-      '/assets/catalogs/esmeral/basic/39214-2.jpg',
-      '/assets/catalogs/esmeral/basic/39214-3.jpg',
+      'assets/catalogs/esmeral/basic/39214.jpg',
+      'assets/catalogs/esmeral/basic/39214-1.jpg',
+      'assets/catalogs/esmeral/basic/39214-2.jpg',
+      'assets/catalogs/esmeral/basic/39214-3.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3042,7 +3042,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 176,
+    id: 122,
     code: "39663",
     name: "Shorts Alfaiataria",
     slug: "shorts-alfaiataria",
@@ -3053,11 +3053,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Shorts Alfaiataria do catálogo Basic.",
     composition: "Alfaiataria",
     images: [
-      '/assets/catalogs/esmeral/basic/39663.jpg',
-      '/assets/catalogs/esmeral/basic/39663-1.jpg',
-      '/assets/catalogs/esmeral/basic/39663-2.jpg',
-      '/assets/catalogs/esmeral/basic/39663-3.jpg',
-      '/assets/catalogs/esmeral/basic/39663-4.jpg',
+      'assets/catalogs/esmeral/basic/39663.jpg',
+      'assets/catalogs/esmeral/basic/39663-1.jpg',
+      'assets/catalogs/esmeral/basic/39663-2.jpg',
+      'assets/catalogs/esmeral/basic/39663-3.jpg',
+      'assets/catalogs/esmeral/basic/39663-4.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3071,7 +3071,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 177,
+    id: 123,
     code: "39636",
     name: "Body Assimétrico Malha",
     slug: "body-assimetrico-malha",
@@ -3082,10 +3082,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Assimétrico Malha do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/39636.jpg',
-      '/assets/catalogs/esmeral/basic/39636-1.jpg',
-      '/assets/catalogs/esmeral/basic/39636-2.jpg',
-      '/assets/catalogs/esmeral/basic/39636-3.jpg',
+      'assets/catalogs/esmeral/basic/39636.jpg',
+      'assets/catalogs/esmeral/basic/39636-1.jpg',
+      'assets/catalogs/esmeral/basic/39636-2.jpg',
+      'assets/catalogs/esmeral/basic/39636-3.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3098,7 +3098,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 178,
+    id: 124,
     code: "39743",
     name: "Calça Jeans Barrel Leg Martingale",
     slug: "calca-jeans-barrel-leg-martingale",
@@ -3109,8 +3109,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Barrel Leg Martingale do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39743.jpg',
-      '/assets/catalogs/esmeral/basic/39743-1.jpg',
+      'assets/catalogs/esmeral/basic/39743.jpg',
+      'assets/catalogs/esmeral/basic/39743-1.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: "#5F82A9" },
@@ -3121,7 +3121,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 179,
+    id: 125,
     code: "39718",
     name: "Calça Jeans Balloon Rasgos",
     slug: "calca-jeans-balloon-rasgos",
@@ -3132,8 +3132,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Balloon Rasgos do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39718.jpg',
-      '/assets/catalogs/esmeral/basic/39718-1.jpg',
+      'assets/catalogs/esmeral/basic/39718.jpg',
+      'assets/catalogs/esmeral/basic/39718-1.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: "#5F82A9" },
@@ -3144,7 +3144,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 180,
+    id: 126,
     code: "39680",
     name: "Cropped Malha Algodão",
     slug: "cropped-malha-algodao",
@@ -3155,10 +3155,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Cropped Malha Algodão do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/39680.jpg',
-      '/assets/catalogs/esmeral/basic/39680-1.jpg',
-      '/assets/catalogs/esmeral/basic/39680-2.jpg',
-      '/assets/catalogs/esmeral/basic/39680-3.jpg',
+      'assets/catalogs/esmeral/basic/39680.jpg',
+      'assets/catalogs/esmeral/basic/39680-1.jpg',
+      'assets/catalogs/esmeral/basic/39680-2.jpg',
+      'assets/catalogs/esmeral/basic/39680-3.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3169,7 +3169,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 181,
+    id: 127,
     code: "39775",
     name: "Bermuda Jeans Amaciada",
     slug: "bermuda-jeans-amaciada",
@@ -3180,8 +3180,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Bermuda Jeans Amaciada do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39775.jpg',
-      '/assets/catalogs/esmeral/basic/39775-1.jpg',
+      'assets/catalogs/esmeral/basic/39775.jpg',
+      'assets/catalogs/esmeral/basic/39775-1.jpg',
     ],
     colors: [
       { name: "Azul Escuro", hex: "#304C6B" },
@@ -3192,7 +3192,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 182,
+    id: 128,
     code: "39620",
     name: "Blusa Assimétrica Malha",
     slug: "blusa-assimetrica-malha",
@@ -3203,11 +3203,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Assimétrica Malha do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/39620.jpg',
-      '/assets/catalogs/esmeral/basic/39620-1.jpg',
-      '/assets/catalogs/esmeral/basic/39620-2.jpg',
-      '/assets/catalogs/esmeral/basic/39620-3.jpg',
-      '/assets/catalogs/esmeral/basic/39620-4.jpg',
+      'assets/catalogs/esmeral/basic/39620.jpg',
+      'assets/catalogs/esmeral/basic/39620-1.jpg',
+      'assets/catalogs/esmeral/basic/39620-2.jpg',
+      'assets/catalogs/esmeral/basic/39620-3.jpg',
+      'assets/catalogs/esmeral/basic/39620-4.jpg',
     ],
     colors: [
       { name: "Amarelo", hex: "#F4D76B" },
@@ -3218,7 +3218,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 183,
+    id: 129,
     code: "39625",
     name: "Blusa Malha Acinturada",
     slug: "blusa-malha-acinturada",
@@ -3229,11 +3229,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Malha Acinturada do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/39625.jpg',
-      '/assets/catalogs/esmeral/basic/39625-1.jpg',
-      '/assets/catalogs/esmeral/basic/39625-2.jpg',
-      '/assets/catalogs/esmeral/basic/39625-3.jpg',
-      '/assets/catalogs/esmeral/basic/39625-4.jpg',
+      'assets/catalogs/esmeral/basic/39625.jpg',
+      'assets/catalogs/esmeral/basic/39625-1.jpg',
+      'assets/catalogs/esmeral/basic/39625-2.jpg',
+      'assets/catalogs/esmeral/basic/39625-3.jpg',
+      'assets/catalogs/esmeral/basic/39625-4.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3247,7 +3247,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 184,
+    id: 130,
     code: "38667",
     name: "Tee Básica Algodão",
     slug: "tee-basica-algodao",
@@ -3258,11 +3258,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Tee Básica Algodão do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/38667.jpg',
-      '/assets/catalogs/esmeral/basic/38667-1.jpg',
-      '/assets/catalogs/esmeral/basic/38667-2.jpg',
-      '/assets/catalogs/esmeral/basic/38667-3.jpg',
-      '/assets/catalogs/esmeral/basic/38667-4.jpg',
+      'assets/catalogs/esmeral/basic/38667.jpg',
+      'assets/catalogs/esmeral/basic/38667-1.jpg',
+      'assets/catalogs/esmeral/basic/38667-2.jpg',
+      'assets/catalogs/esmeral/basic/38667-3.jpg',
+      'assets/catalogs/esmeral/basic/38667-4.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -3273,7 +3273,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 185,
+    id: 131,
     code: "39662",
     name: "Blusa Capa Malha",
     slug: "blusa-capa-malha",
@@ -3284,11 +3284,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Capa Malha do catálogo Basic.",
     composition: "Viscocrepe",
     images: [
-      '/assets/catalogs/esmeral/basic/39662.jpg',
-      '/assets/catalogs/esmeral/basic/39662-1.jpg',
-      '/assets/catalogs/esmeral/basic/39662-2.jpg',
-      '/assets/catalogs/esmeral/basic/39662-3.jpg',
-      '/assets/catalogs/esmeral/basic/39662-4.jpg',
+      'assets/catalogs/esmeral/basic/39662.jpg',
+      'assets/catalogs/esmeral/basic/39662-1.jpg',
+      'assets/catalogs/esmeral/basic/39662-2.jpg',
+      'assets/catalogs/esmeral/basic/39662-3.jpg',
+      'assets/catalogs/esmeral/basic/39662-4.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3302,7 +3302,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 186,
+    id: 132,
     code: "39717",
     name: "Calça Extra Wide Sarja",
     slug: "calca-extra-wide-sarja",
@@ -3313,8 +3313,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Extra Wide Sarja do catálogo Basic.",
     composition: "Sarja",
     images: [
-      '/assets/catalogs/esmeral/basic/39717.jpg',
-      '/assets/catalogs/esmeral/basic/39717-1.jpg',
+      'assets/catalogs/esmeral/basic/39717.jpg',
+      'assets/catalogs/esmeral/basic/39717-1.jpg',
     ],
     colors: [
       { name: "Oliva", hex: "#7C8252" },
@@ -3325,7 +3325,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 187,
+    id: 133,
     code: "39677",
     name: "Blusa Frente Única Malha",
     slug: "blusa-frente-unica-malha",
@@ -3336,11 +3336,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Frente Única Malha do catálogo Basic.",
     composition: "Viscocrepe",
     images: [
-      '/assets/catalogs/esmeral/basic/39677.jpg',
-      '/assets/catalogs/esmeral/basic/39677-1.jpg',
-      '/assets/catalogs/esmeral/basic/39677-2.jpg',
-      '/assets/catalogs/esmeral/basic/39677-3.jpg',
-      '/assets/catalogs/esmeral/basic/39677-4.jpg',
+      'assets/catalogs/esmeral/basic/39677.jpg',
+      'assets/catalogs/esmeral/basic/39677-1.jpg',
+      'assets/catalogs/esmeral/basic/39677-2.jpg',
+      'assets/catalogs/esmeral/basic/39677-3.jpg',
+      'assets/catalogs/esmeral/basic/39677-4.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3354,7 +3354,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 188,
+    id: 134,
     code: "39609",
     name: "Calça Jeans Culotte",
     slug: "calca-jeans-culotte",
@@ -3365,8 +3365,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Culotte do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39609.jpg',
-      '/assets/catalogs/esmeral/basic/39609-1.jpg',
+      'assets/catalogs/esmeral/basic/39609.jpg',
+      'assets/catalogs/esmeral/basic/39609-1.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: "#5F82A9" },
@@ -3377,7 +3377,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 189,
+    id: 135,
     code: "39682",
     name: "Blusa Assimétrica Malha",
     slug: "blusa-assimetrica-malha",
@@ -3388,11 +3388,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Assimétrica Malha do catálogo Basic.",
     composition: "Viscocrepe",
     images: [
-      '/assets/catalogs/esmeral/basic/39682.jpg',
-      '/assets/catalogs/esmeral/basic/39682-1.jpg',
-      '/assets/catalogs/esmeral/basic/39682-2.jpg',
-      '/assets/catalogs/esmeral/basic/39682-3.jpg',
-      '/assets/catalogs/esmeral/basic/39682-4.jpg',
+      'assets/catalogs/esmeral/basic/39682.jpg',
+      'assets/catalogs/esmeral/basic/39682-1.jpg',
+      'assets/catalogs/esmeral/basic/39682-2.jpg',
+      'assets/catalogs/esmeral/basic/39682-3.jpg',
+      'assets/catalogs/esmeral/basic/39682-4.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3406,7 +3406,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 190,
+    id: 136,
     code: "39690",
     name: "Blusa Canelada Com Renda Lateral",
     slug: "blusa-canelada-com-renda-lateral",
@@ -3417,11 +3417,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Canelada Com Renda Lateral do catálogo Basic.",
     composition: "Canelado",
     images: [
-      '/assets/catalogs/esmeral/basic/39690.jpg',
-      '/assets/catalogs/esmeral/basic/39690-1.jpg',
-      '/assets/catalogs/esmeral/basic/39690-2.jpg',
-      '/assets/catalogs/esmeral/basic/39690-3.jpg',
-      '/assets/catalogs/esmeral/basic/39690-4.jpg',
+      'assets/catalogs/esmeral/basic/39690.jpg',
+      'assets/catalogs/esmeral/basic/39690-1.jpg',
+      'assets/catalogs/esmeral/basic/39690-2.jpg',
+      'assets/catalogs/esmeral/basic/39690-3.jpg',
+      'assets/catalogs/esmeral/basic/39690-4.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3435,7 +3435,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 191,
+    id: 137,
     code: "39622",
     name: "Baby Look Franzida",
     slug: "baby-look-franzida",
@@ -3446,11 +3446,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Baby Look Franzida do catálogo Basic.",
     composition: "Canelado",
     images: [
-      '/assets/catalogs/esmeral/basic/39622.jpg',
-      '/assets/catalogs/esmeral/basic/39622-1.jpg',
-      '/assets/catalogs/esmeral/basic/39622-2.jpg',
-      '/assets/catalogs/esmeral/basic/39622-3.jpg',
-      '/assets/catalogs/esmeral/basic/39622-4.jpg',
+      'assets/catalogs/esmeral/basic/39622.jpg',
+      'assets/catalogs/esmeral/basic/39622-1.jpg',
+      'assets/catalogs/esmeral/basic/39622-2.jpg',
+      'assets/catalogs/esmeral/basic/39622-3.jpg',
+      'assets/catalogs/esmeral/basic/39622-4.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3464,7 +3464,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 192,
+    id: 138,
     code: "38797",
     name: "Blusa Um Ombro Algodão",
     slug: "blusa-um-ombro-algodao",
@@ -3475,12 +3475,12 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Um Ombro Algodão do catálogo Basic.",
     composition: "Meia Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/38797.jpg',
-      '/assets/catalogs/esmeral/basic/38797-1.jpg',
-      '/assets/catalogs/esmeral/basic/38797-2.jpg',
-      '/assets/catalogs/esmeral/basic/38797-3.jpg',
-      '/assets/catalogs/esmeral/basic/38797-4.jpg',
-      '/assets/catalogs/esmeral/basic/38797-5.jpg',
+      'assets/catalogs/esmeral/basic/38797.jpg',
+      'assets/catalogs/esmeral/basic/38797-1.jpg',
+      'assets/catalogs/esmeral/basic/38797-2.jpg',
+      'assets/catalogs/esmeral/basic/38797-3.jpg',
+      'assets/catalogs/esmeral/basic/38797-4.jpg',
+      'assets/catalogs/esmeral/basic/38797-5.jpg',
     ],
     colors: [
       { name: "Branco", hex: "#FFFFFF" },
@@ -3492,7 +3492,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 193,
+    id: 139,
     code: "39509",
     name: "Blusa Recorte Couro P.U",
     slug: "blusa-recorte-couro-p-u",
@@ -3503,9 +3503,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Recorte Couro P.U do catálogo Basic.",
     composition: "Couro P.U",
     images: [
-      '/assets/catalogs/esmeral/basic/39509.jpg',
-      '/assets/catalogs/esmeral/basic/39509-1.jpg',
-      '/assets/catalogs/esmeral/basic/39509-2.jpg',
+      'assets/catalogs/esmeral/basic/39509.jpg',
+      'assets/catalogs/esmeral/basic/39509-1.jpg',
+      'assets/catalogs/esmeral/basic/39509-2.jpg',
     ],
     colors: [
       { name: "Marrom", hex: "#6B3F2A" },
@@ -3517,7 +3517,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 194,
+    id: 140,
     code: "39685",
     name: "Blusa Alça Malha",
     slug: "blusa-alca-malha",
@@ -3528,10 +3528,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Alça Malha do catálogo Basic.",
     composition: "Malha",
     images: [
-      '/assets/catalogs/esmeral/basic/39685.jpg',
-      '/assets/catalogs/esmeral/basic/39685-1.jpg',
-      '/assets/catalogs/esmeral/basic/39685-2.jpg',
-      '/assets/catalogs/esmeral/basic/39685-3.jpg',
+      'assets/catalogs/esmeral/basic/39685.jpg',
+      'assets/catalogs/esmeral/basic/39685-1.jpg',
+      'assets/catalogs/esmeral/basic/39685-2.jpg',
+      'assets/catalogs/esmeral/basic/39685-3.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3544,7 +3544,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 195,
+    id: 141,
     code: "35537",
     name: "Tricot Alça Frente Única",
     slug: "tricot-alca-frente-unica",
@@ -3555,11 +3555,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Tricot Alça Frente Única do catálogo Basic.",
     composition: "Tricot",
     images: [
-      '/assets/catalogs/esmeral/basic/35537.jpg',
-      '/assets/catalogs/esmeral/basic/35537-1.jpg',
-      '/assets/catalogs/esmeral/basic/35537-2.jpg',
-      '/assets/catalogs/esmeral/basic/35537-3.jpg',
-      '/assets/catalogs/esmeral/basic/35537-4.jpg',
+      'assets/catalogs/esmeral/basic/35537.jpg',
+      'assets/catalogs/esmeral/basic/35537-1.jpg',
+      'assets/catalogs/esmeral/basic/35537-2.jpg',
+      'assets/catalogs/esmeral/basic/35537-3.jpg',
+      'assets/catalogs/esmeral/basic/35537-4.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -3573,7 +3573,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 196,
+    id: 142,
     code: "39610",
     name: "Calça Jeans Basic Reta",
     slug: "calca-jeans-basic-reta",
@@ -3584,8 +3584,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Basic Reta do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39610.jpg',
-      '/assets/catalogs/esmeral/basic/39610-1.jpg',
+      'assets/catalogs/esmeral/basic/39610.jpg',
+      'assets/catalogs/esmeral/basic/39610-1.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: "#5F82A9" },
@@ -3596,7 +3596,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 197,
+    id: 143,
     code: "39224",
     name: "Calça Jeans Mom",
     slug: "calca-jeans-mom",
@@ -3607,8 +3607,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Mom do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39224.jpg',
-      '/assets/catalogs/esmeral/basic/39224-1.jpg',
+      'assets/catalogs/esmeral/basic/39224.jpg',
+      'assets/catalogs/esmeral/basic/39224-1.jpg',
     ],
     colors: [
       { name: "Azul Médio", hex: "#5F82A9" },
@@ -3619,7 +3619,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 198,
+    id: 144,
     code: "39672",
     name: "Calça Balloon Bolsos",
     slug: "calca-balloon-bolsos",
@@ -3630,9 +3630,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Balloon Bolsos do catálogo Basic.",
     composition: "Jeans",
     images: [
-      '/assets/catalogs/esmeral/basic/39672.jpg',
-      '/assets/catalogs/esmeral/basic/39672-1.jpg',
-      '/assets/catalogs/esmeral/basic/39672-2.jpg',
+      'assets/catalogs/esmeral/basic/39672.jpg',
+      'assets/catalogs/esmeral/basic/39672-1.jpg',
+      'assets/catalogs/esmeral/basic/39672-2.jpg',
     ],
     colors: [
     ],
@@ -3642,7 +3642,7 @@ export const MOCK_PRODUCTS: Product[] = [
     createdAt: "2026-08-31"
   },
   {
-    id: 199,
+    id: 145,
     code: "11130",
     name: "Regata Vivien",
     slug: "regata-vivien",
@@ -3653,8 +3653,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Vivien do catálogo Summer 27.",
     composition: "Jacquard",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
@@ -3662,11 +3662,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 200,
+    id: 146,
     code: "11131",
     name: "Saia Vivien",
     slug: "saia-vivien",
@@ -3677,8 +3677,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Vivien do catálogo Summer 27.",
     composition: "Jacquard",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
@@ -3686,11 +3686,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 201,
+    id: 147,
     code: "11137",
     name: "Top Vivien",
     slug: "top-vivien",
@@ -3701,7 +3701,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Top Vivien do catálogo Summer 27.",
     composition: "Jacquard",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
@@ -3709,11 +3709,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 202,
+    id: 148,
     code: "11162",
     name: "Regata Vanessa",
     slug: "regata-vanessa",
@@ -3724,8 +3724,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Vanessa do catálogo Summer 27.",
     composition: "Alfaiataria",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3734,11 +3734,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 203,
+    id: 149,
     code: "11163",
     name: "Calça Vanessa",
     slug: "calca-vanessa",
@@ -3749,8 +3749,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Vanessa do catálogo Summer 27.",
     composition: "Alfaiataria",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3759,11 +3759,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 204,
+    id: 150,
     code: "11132",
     name: "Vestido Dani",
     slug: "vestido-dani",
@@ -3774,19 +3774,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Dani do catálogo Summer 27.",
     composition: "Paetê",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Aveia", hex: "#D8CDB8" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 205,
+    id: 151,
     code: "11096",
     name: "Camisa Vera",
     slug: "camisa-vera",
@@ -3797,8 +3797,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Camisa Vera do catálogo Summer 27.",
     composition: "Gaze",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Azul", hex: "#7FA8D8" },
@@ -3807,11 +3807,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 206,
+    id: 152,
     code: "11079",
     name: "Saia Laila",
     slug: "saia-laila",
@@ -3822,19 +3822,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Laila do catálogo Summer 27.",
     composition: "Sarja",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 207,
+    id: 153,
     code: "11133",
     name: "Regata Paula",
     slug: "regata-paula",
@@ -3845,19 +3845,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Paula do catálogo Summer 27.",
     composition: "Crochet",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Natural", hex: "#E8DDC7" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 208,
+    id: 154,
     code: "11134",
     name: "Bermuda Paula",
     slug: "bermuda-paula",
@@ -3868,19 +3868,19 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Bermuda Paula do catálogo Summer 27.",
     composition: "Crochet",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Natural", hex: "#E8DDC7" },
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 209,
+    id: 155,
     code: "11145",
     name: "Blusa Luiza",
     slug: "blusa-luiza",
@@ -3891,8 +3891,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Luiza do catálogo Summer 27.",
     composition: "Voil",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3901,11 +3901,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 210,
+    id: 156,
     code: "11146",
     name: "Saia Luiza",
     slug: "saia-luiza",
@@ -3916,8 +3916,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Luiza do catálogo Summer 27.",
     composition: "Voil",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3926,11 +3926,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 211,
+    id: 157,
     code: "11138",
     name: "Regata Ana",
     slug: "regata-ana",
@@ -3941,8 +3941,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Ana do catálogo Summer 27.",
     composition: "Voil",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3951,11 +3951,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 212,
+    id: 158,
     code: "11139",
     name: "Calça Ana",
     slug: "calca-ana",
@@ -3966,8 +3966,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Ana do catálogo Summer 27.",
     composition: "Voil",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -3976,11 +3976,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 213,
+    id: 159,
     code: "11502",
     name: "Jardineira Sarja",
     slug: "jardineira-sarja",
@@ -3991,18 +3991,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Jardineira Sarja do catálogo Summer 27.",
     composition: "Sarja",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
     ],
     sizes: ["34", "36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 214,
+    id: 160,
     code: "11531",
     name: "Calça Jeans Cecília",
     slug: "calca-jeans-cecilia",
@@ -4013,18 +4013,18 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Jeans Cecília do catálogo Summer 27.",
     composition: "Jeans",
     images: [
-      './assets/teste/img3.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Denim", hex: "#54779B" },
     ],
     sizes: ["34", "36", "38", "40"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 215,
+    id: 161,
     code: "11115",
     name: "Body Andressa",
     slug: "body-andressa",
@@ -4035,8 +4035,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Andressa do catálogo Summer 27.",
     composition: "Poliamida",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -4047,11 +4047,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 216,
+    id: 162,
     code: "11164",
     name: "Calça Yolanda",
     slug: "calca-yolanda",
@@ -4062,8 +4062,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Yolanda do catálogo Summer 27.",
     composition: "Crepe",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -4073,11 +4073,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 217,
+    id: 163,
     code: "11147",
     name: "Regata Cintia",
     slug: "regata-cintia",
@@ -4088,8 +4088,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Cintia do catálogo Summer 27.",
     composition: "Crepe",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -4099,11 +4099,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 218,
+    id: 164,
     code: "11148",
     name: "Saia Cintia",
     slug: "saia-cintia",
@@ -4114,8 +4114,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Saia Cintia do catálogo Summer 27.",
     composition: "Crepe",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -4125,11 +4125,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 219,
+    id: 165,
     code: "11157",
     name: "Regata Carla",
     slug: "regata-carla",
@@ -4140,8 +4140,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Carla do catálogo Summer 27.",
     composition: "Linho",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -4150,11 +4150,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 220,
+    id: 166,
     code: "11158",
     name: "Calça Carla",
     slug: "calca-carla",
@@ -4165,8 +4165,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Carla do catálogo Summer 27.",
     composition: "Linho",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -4175,11 +4175,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 221,
+    id: 167,
     code: "11104",
     name: "Regata Vanda",
     slug: "regata-vanda",
@@ -4190,8 +4190,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Regata Vanda do catálogo Summer 27.",
     composition: "Malha Canelada",
     images: [
-      './assets/teste/img1.jpg',
-      './assets/teste/img2.jpg',
+      '.assets/teste/img1.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -4202,11 +4202,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 222,
+    id: 168,
     code: "11156",
     name: "Vestido Carla",
     slug: "vestido-carla",
@@ -4217,8 +4217,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Carla do catálogo Summer 27.",
     composition: "Linho",
     images: [
-      './assets/teste/img3.jpg',
-      './assets/teste/img1.jpg',
+      '.assets/teste/img3.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#F5B6C8" },
@@ -4227,11 +4227,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 223,
+    id: 169,
     code: "11526",
     name: "Conjunto Onda",
     slug: "conjunto-onda",
@@ -4242,8 +4242,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Conjunto Onda do catálogo Summer 27.",
     composition: "Tricot",
     images: [
-      './assets/teste/img2.jpg',
-      './assets/teste/img3.jpg',
+      '.assets/teste/img2.jpg',
+      '.assets/teste/img3.jpg',
     ],
     colors: [
       { name: "Off White", hex: "#F8F3EA" },
@@ -4251,11 +4251,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 224,
+    id: 170,
     code: "11080",
     name: "Jaqueta Cecilia",
     slug: "jaqueta-cecilia",
@@ -4266,7 +4266,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Jaqueta Cecilia do catálogo Summer 27.",
     composition: "Sarja",
     images: [
-      './assets/teste/img1.jpg',
+      '.assets/teste/img1.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
@@ -4274,11 +4274,11 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
   },
   {
-    id: 225,
+    id: 171,
     code: "11081",
     name: "Calça Cecilia",
     slug: "calca-cecilia",
@@ -4289,7 +4289,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Cecilia do catálogo Summer 27.",
     composition: "Sarja",
     images: [
-      './assets/teste/img2.jpg',
+      '.assets/teste/img2.jpg',
     ],
     colors: [
       { name: "Choco", hex: "#4A2C22" },
@@ -4297,7 +4297,7 @@ export const MOCK_PRODUCTS: Product[] = [
     ],
     sizes: ["36", "38", "40", "42"],
     stock: 5,
-    isActive: true,
+    isActive: false,
     createdAt: "2026-08-31"
-  },
+  }
 ];

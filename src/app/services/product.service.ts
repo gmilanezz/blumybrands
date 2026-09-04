@@ -148,7 +148,7 @@ export class ProductService {
       isActive: product.isActive ?? true,
       stock: product.stock ?? 0,
       createdAt: product.createdAt ?? new Date().toISOString().slice(0, 10),
-      images: product.images?.length ? product.images : ['/assets/catalogs/esmeral/basic/39746.jpg'],
+      images: product.images?.length ? product.images : ['assets/catalogs/esmeral/basic/39746.jpg'],
       colors: product.colors?.length ? product.colors : [{ name: 'Única' }],
       sizes: product.sizes?.length ? product.sizes : ['Único']
     };
