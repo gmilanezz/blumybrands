@@ -1,5 +1,5 @@
 .breadcrumb {
-  color: #777;
+  color: #E8DDB8;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
@@ -7,7 +7,7 @@
 .breadcrumb-link {
   background: none;
   border: 0;
-  color: #080808;
+  color: #E8DDB8;
   cursor: pointer;
   font: inherit;
   padding: 0;
@@ -59,14 +59,17 @@
   object-fit: cover;
   object-position: top;
   width: 100%;
-  border: 2px solid #080808;
+  border: 1px solid var(--text-light);
   border-radius: 12px;
 }
 
 .thumbs {
   display: flex;
-  gap: 0.75rem;
+  gap: 10px;
   overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #d8c27a #111;
 }
 
 .thumbs button {
@@ -79,7 +82,7 @@
 }
 
 .thumbs button.active {
-  border-color: var(--primary-purple);
+  border-color: var(--text-light);
 }
 
 .thumbs img {
@@ -102,7 +105,7 @@
 }
 
 .back-link {
-  color: var(--primary-purple);
+  color: var(--text-light);
   display: inline-block;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -115,13 +118,13 @@
 }
 
 .product-info h1 {
-  color: var(--primary-purple);
+  color: var(--text-light);
   font-size: 2rem;
   margin: 0.2rem 0 0.7rem;
 }
 
 .price {
-  color: var(--primary-purple);
+  color: var(--text-light);
   font-size: 1.45rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -129,7 +132,7 @@
 
 .description,
 .composition {
-  color: #555;
+  color: var(--text-light);
   margin-bottom: .5rem;
 }
 
@@ -140,7 +143,7 @@
 }
 
 .form-group label {
-  color: var(--primary-purple);
+  color: var(--text-light);
   font-weight: 500;
   margin-top: 10px;
 }
@@ -163,7 +166,7 @@
 }
 
 .options button.active {
-  background: var(--primary-purple);
+  background: var(--text-light);
   color: var(--text-light);
 }
 
@@ -176,10 +179,10 @@
 }
 
 .btn-add-cart {
-  background: var(--primary-purple);
+  background: var(--text-light);
   border: 0;
   border-radius: 12px;
-  color: var(--text-light);
+  color: black;
   cursor: pointer;
   display: inline-flex;
   font-size: 0.9rem;
@@ -193,12 +196,12 @@
 
 .btn-add-cart:hover {
   background: var(--text-light);
-  color: var(--primary-purple);
+  color: var(--text-light);
 }
 
 .btn-add-cart.is-added {
   background: #25D366;
-  color: #D4AF37;
+  color: #D8C48A;
 }
 
 .not-found {
@@ -209,7 +212,7 @@
 }
 
 .not-found h1 {
-  color: var(--primary-purple);
+  color: var(--text-light);
 }
 
 @media (max-width: 850px) {

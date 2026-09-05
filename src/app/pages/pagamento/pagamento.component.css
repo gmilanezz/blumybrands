@@ -1,12 +1,12 @@
 .breadcrumb {
-  color: #777;
+  color: #E8DDB8;
   font-size: 1.1rem;
 }
 
 .breadcrumb-link {
   background: none;
   border: 0;
-  color: #080808;
+  color: #E8DDB8;
   cursor: pointer;
   font: inherit;
   padding: 0;
@@ -18,8 +18,8 @@
 }
 
 .policy-page {
-  background: #FFFFFF;
-  color: #080808;
+  background: #080808;
+  color: #E8DDB8;
   min-height: 70vh;
 }
 
@@ -30,14 +30,14 @@
 }
 
 .main-title {
-  color: #080808;
+  color: #E8DDB8;
   font-size: 1.6rem;
   padding: 40px 0 20px;
   text-align: center;
 }
 
-.policy-content p {
-  color: #444;
+.policy-content p { 
+  color: #E8DDB8;
   font-size: 1.1rem;
   line-height: 1.8;
 }

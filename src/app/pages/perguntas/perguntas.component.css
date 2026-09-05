@@ -1,6 +1,6 @@
 .policy-page {
-    background: #FFFFFF;
-    color: #080808;
+    background: #080808;
+    color: #E8DDB8;
     min-height: 70vh;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .breadcrumb {
-    color: #777;
+    color: #e8ddb8;
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
@@ -19,7 +19,7 @@
 .breadcrumb-link {
     background: none;
     border: 0;
-    color: #080808;
+    color: #E8DDB8;
     cursor: pointer;
     font: inherit;
     padding: 0;
@@ -31,7 +31,7 @@
 }
 
 .main-title {
-    color: #080808;
+    color: #E8DDB8;
     font-size: 1.6rem;
     padding: 30px 0 40px;
     text-align: center;
@@ -52,14 +52,14 @@
 }
 
 .faq-item h2 {
-    color: #080808;
+    color: #E8DDB8;
     font-size: 1.15rem;
     margin: 0 0 12px;
     text-transform: uppercase;
 }
 
 .faq-item p {
-    color: #444;
+    color: #E8DDB8;
     font-size: 1rem;
     line-height: 1.8;
     margin: 0;
@@ -67,7 +67,7 @@
 }
 
 .faq-item a {
-    color: #080808;
+    color: #E8DDB8;
     font-weight: 600;
     text-decoration: none;
 }

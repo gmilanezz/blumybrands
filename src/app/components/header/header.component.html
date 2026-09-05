@@ -1,7 +1,7 @@
-<header class="site-header">
+<header class="site-header" [ngClass]="{ scrolled: isScrolled }">
   <div class="header-container">
     <a class="logo" routerLink="/" aria-label="Ir para a página inicial" (click)="closeMobileMenu()">
-      <img src="assets/logo/logo.jpg" alt="Blummy Brands" id="logo-img">
+      <img src="assets/logo/logo.jpg" alt="Blumy Brands" id="logo-img">
     </a>
 
     <nav class="desktop-menu" aria-label="Menu principal">
@@ -69,7 +69,7 @@
 
         <ul class="submenu">
           <li>
-            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/sobre">Sobre a Blummy Brands</a>
+            <a class="menu-link" (click)="closeMobileMenu()" routerLink="/sobre">Sobre a Blumy Brands</a>
           </li>
           <li>
             <a class="menu-link" (click)="closeMobileMenu()" routerLink="/perguntas">Perguntas Frequentes</a>

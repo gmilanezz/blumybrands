@@ -75,7 +75,7 @@ export class CartComponent implements OnInit, OnDestroy {
   }
 
   get checkoutWhatsappUrl(): string {
-    const phoneNumber = ''; // Configure o WhatsApp oficial da Blummy Brands.
+    const phoneNumber = 'href="6185280388"';
 
     const productsMessage = this.items
       .map((item, index) => {

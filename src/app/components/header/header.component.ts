@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, HostListener, OnDestroy, OnInit } from '@angular/core';
 import { NgClass, NgFor, NgIf } from '@angular/common';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { Subscription } from 'rxjs';
@@ -22,6 +22,7 @@ interface HeaderBrand {
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   isMobileMenuOpen = false;
+  isScrolled = false;
   openSubmenu: string | null = null;
   brands: HeaderBrand[] = [];
 

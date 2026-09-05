@@ -10,7 +10,7 @@
 }
 
 .breadcrumb {
-  color: #777;
+  color: #E8DDB8;
   font-size: 1rem;
   margin-bottom: 1rem;
   margin-top: -20px;
@@ -19,7 +19,7 @@
 .breadcrumb-link {
   background: none;
   border: 0;
-  color: #080808;
+  color: #E8DDB8;
   cursor: pointer;
   font: inherit;
   padding: 0;
@@ -32,7 +32,7 @@
 
 .cart-header h1,
 .empty-cart h2 {
-  color: var(--primary-purple);
+  color: #E8DDB8;
   font-size: 2rem;
   text-align: center;
 }
@@ -50,7 +50,7 @@
 .cart-item {
   align-items: center;
   background: transparent;
-  border: 2px solid #080808;
+  border: 2px solid #E8DDB8;
   border-radius: 12px;
   display: grid;
   gap: 1rem;
@@ -66,7 +66,7 @@
 }
 
 .cart-info h2 {
-  color: var(--primary-purple);
+  color: #E8DDB8;
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -79,17 +79,17 @@
 
 .quantity-controls button,
 .remove {
-  background: #080808;
-  border: 1px solid #080808;
+  background: none;
+  border: 1px solid #E8DDB8;
   border-radius: 12px;
   cursor: pointer;
   font-weight: 800;
   padding: 0.5rem 0.8rem;
-  color: #080808;
+  color: #E8DDB8;
 }
 
 .remove {
-  color: #9c1f2e;
+  color: #E8DDB8;
   font-weight: 500;
 }
 
@@ -99,23 +99,24 @@
   flex-direction: column;
   margin-top: 25px;
   padding: 0;
+  gap: 10px;
 }
 
 .cart-summary-inline p {
-  color: #333;
+  color: #E8DDB8;
   font-size: 1.2rem;
   margin: 0;
 }
 
 .cart-summary-inline .cart-total {
-  color: #080808;
+  color: #E8DDB8;
   font-size: 1.15rem;
   font-weight: 700;
 }
 
 .checkout-whatsapp {
-  background-color: #080808;
-  color: #D4AF37;
+  background-color: #E8DDB8;
+  color: #000;
   display: inline-block;
   border-radius: 6px;
   font-size: 0.95rem;
@@ -127,8 +128,8 @@
 }
 
 .checkout-whatsapp:hover {
-  background: #D4AF37;
-  color: #080808;
+  background: #D8C48A;
+  color: #E8DDB8;
 }
 
 .empty-cart {
@@ -138,18 +139,18 @@
 }
 
 .summary h2 {
-  color: var(--primary-purple);
+  color: #E8DDB8;
 }
 
 .total {
-  color: var(--primary-purple);
+  color: #E8DDB8;
   font-size: 1.35rem;
   font-weight: 900;
   margin: 1rem 0;
 }
 
 .empty-cart a {
-  background: var(--primary-purple);
+  background: #E8DDB8;
   border: 0;
   color: var(--text-light);
   cursor: pointer;
@@ -197,7 +198,7 @@
 }
 
 .discount-label {
-  color: #333;
+  color: #E8DDB8;
   display: block;
   font-size: 1rem;
   font-weight: 600;
@@ -210,7 +211,7 @@
 }
 
 .discount-input {
-  border: 1px solid #080808;
+  border: 1px solid #E8DDB8;
   border-radius: 6px;
   box-sizing: border-box;
   font-size: 1rem;
@@ -238,17 +239,17 @@
 }
 
 .discount-input {
-  border: 1px solid #080808;
+  border: 1px solid #E8DDB8;
   padding: 0.7rem 0.8rem;
   font-size: 1rem;
   min-width: 220px;
 }
 
 .discount-button {
-  background-color: #080808;
-  border: 1px solid #080808;
+  background-color: #E8DDB8;
+  border: 1px solid #E8DDB8;
   border-radius: 6px;
-  color: #D4AF37;
+  color: #000000;
   cursor: pointer;
   font-size: 0.95rem;
   font-weight: 600;
@@ -256,8 +257,8 @@
 }
 
 .discount-button:hover {
-  background-color: #D4AF37;
-  color: #080808;
+  background-color: #D8C48A;
+  color: #E8DDB8;
 }
 
 .discount-error {

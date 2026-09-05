@@ -3,9 +3,13 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "blummy-brands": {
+    "blumybrands": {
       "projectType": "application",
-      "schematics": {"@schematics/angular:component": {"style": "css"}},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "css"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -15,20 +19,45 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [{"glob": "**/*", "input": "public"}],
-            "styles": ["src/styles.css"]
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              }
+            ],
+            "styles": [
+              "src/styles.css"
+            ]
           },
           "configurations": {
-            "production": {"outputHashing": "all", "budgets": [{"type": "initial", "maximumWarning": "2MB", "maximumError": "4MB"}]},
-            "development": {"optimization": false, "extractLicenses": false, "sourceMap": true}
+            "production": {
+              "outputHashing": "all",
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2MB",
+                  "maximumError": "4MB"
+                }
+              ]
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
           },
           "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular/build:dev-server",
           "configurations": {
-            "production": {"buildTarget": "blummy-brands:build:production"},
-            "development": {"buildTarget": "blummy-brands:build:development"}
+            "production": {
+              "buildTarget": "blumybrands:build:production"
+            },
+            "development": {
+              "buildTarget": "blumybrands:build:development"
+            }
           },
           "defaultConfiguration": "development"
         }

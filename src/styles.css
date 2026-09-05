@@ -2,22 +2,22 @@
   --black: #080808;
   --black-soft: #111111;
   --black-elevated: #171717;
-  --gold: #D4AF37;
-  --gold-light: #E7C766;
-  --gold-dark: #B88A28;
-  --muted-gold: #BCA66C;
+  --gold: #D8C48A;
+  --gold-light: #E8DDB8;
+  --gold-dark: #B8A36A;
+  --muted-gold: #C5B681;
   --primary-purple: #080808;
   --light-purple: #171717;
-  --text-light: #D4AF37;
+  --text-light: #E8DDB8;
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; background: #FFFFFF; }
+html { scroll-behavior: smooth; background: var(--black); }
 body {
   margin: 0;
   min-height: 100vh;
-  background: #FFFFFF;
-  color: #080808;
+  background: var(--black);
+  color: var(--gold-light);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -25,12 +25,17 @@ button, input, select, textarea { font: inherit; }
 a { color: inherit; }
 ::selection { background: var(--gold); color: var(--black); }
 
-/* Blummy Brands: páginas claras; header/footer preservam a identidade preto + dourado */
-main { background-color: #FFFFFF; color: #080808; }
-section { color: #080808; }
+main { background-color: var(--black); color: var(--gold-light); min-height: 60vh; }
+section { color: var(--gold-light); }
+
 input, select, textarea {
-  background: #FFFFFF;
-  color: #080808;
+  background: var(--black-soft);
+  color: var(--gold-light);
   border-color: var(--gold-dark);
 }
 input::placeholder, textarea::placeholder { color: var(--muted-gold); }
+
+/* Tema global Blumy: superfícies claras antigas passam a acompanhar o fundo escuro. */
+.page, .page-container, .content, .content-container, .container, .policy-page, .info-page {
+  color: var(--gold-light);
+}

@@ -1,9 +1,10 @@
+.product-card { background: #111111; color: #E8DDB8; }
 .product-card {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 620px;
-  border: 1px solid #080808;
+  border: 1px solid #D8C48A;
   border-radius: 12px;
   overflow: hidden;
   box-sizing: border-box;
@@ -14,7 +15,7 @@
   width: 100%;
   height: 385px;
   overflow: hidden;
-  background: #f7f7f7;
+  background: #111111;
 }
 
 .product-card img {
@@ -30,7 +31,7 @@
 
 .product-code,
 .product-meta {
-  color: #BCA66C;
+  color: #C5B681;
   display: block;
   font-size: 0.82rem;
   line-height: 1.3;
@@ -48,15 +49,15 @@
 }
 
 .price {
-  color: #080808;
+  color: #E8DDB8;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 10px 0;
 }
 
 .btn-ver-mais {
-  background: #080808;
-  color: #D4AF37;
+  background: #D8C48A;
+  color: #080808;
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 500;
@@ -67,6 +68,6 @@
 }
 
 .btn-ver-mais:hover {
-  background: #D4AF37;
+  background: #E8DDB8;
   color: #080808;
 }

@@ -24,8 +24,7 @@
 }
 
 .logo img {
-  height: 45px;
-  margin-top: 6px;
+  height: 40px;
   object-fit: contain;
   width: auto;
 }
@@ -46,7 +45,7 @@
 
 .desktop-menu a,
 .desktop-menu span {
-  color: #D4AF37;
+  color: #D8C48A;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
@@ -90,7 +89,7 @@
 }
 
 .dropdown-menu li a {
-  color: #D4AF37;
+  color: #D8C48A;
   display: block;
   font-size: 14px;
   padding: 6px 20px;
@@ -107,7 +106,7 @@
   align-items: center;
   display: flex;
   gap: 12px;
-  padding: 5%;
+  padding: 3%;
 }
 
 .cart-btn {
@@ -124,14 +123,14 @@
 }
 
 .cart-icon {
-  color: #D4AF37;
+  color: #D8C48A;
   stroke-width: 1.7;
   transition: all 0.3s ease;
 }
 
 .cart-count {
   align-items: center;
-  background: #D4AF37;
+  background: #D8C48A;
   border-radius: 50%;
   color: #080808;
   display: inline-flex;
@@ -147,7 +146,7 @@
 .hamburger {
   background: none;
   border: none;
-  color: #D4AF37;
+  color: #D8C48A;
   cursor: pointer;
   display: none;
   height: 22px;
@@ -158,7 +157,7 @@
 .hamburger::before,
 .hamburger::after,
 .hamburger span {
-  background-color: #D4AF37;
+  background-color: #D8C48A;
   border-radius: 2px;
   content: '';
   height: 2px;
@@ -183,7 +182,7 @@
 .hamburger:hover::before,
 .hamburger:hover::after,
 .hamburger:hover span {
-  background-color: #e5d4a8;
+  background-color: #E8DDB8;
 }
 
 .mobile-backdrop {
@@ -224,7 +223,7 @@
 .menu-link {
   background: transparent;
   border: 0;
-  color: #D4AF37;
+  color: #D8C48A;
   display: block;
   font-size: 1.1rem;
   font-weight: 400;
@@ -263,7 +262,7 @@
 }
 
 .submenu a {
-  color: #D4AF37;
+  color: #D8C48A;
   display: block;
   font-size: 1rem;
   padding: 14px 25px 14px 42px;

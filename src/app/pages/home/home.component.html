@@ -17,90 +17,89 @@
 
   <section class="catalog-section">
     <div class="section-header">
-      <h2>Seleção Blummy Brands</h2>
-      <p class="subtitle">Curadoria de marcas e coleções</p>
+      <h2>Uzee Couro</h2>
+      <p class="subtitle">Inverno 26</p>
     </div>
 
     <div class="products-carousel" id="products-carousel">
-      <button class="carousel-arrow prev" type="button" aria-label="Voltar produtos" (click)="scrollProducts('prev')">
-        ❮
-      </button>
+      <button class="carousel-arrow prev" type="button" aria-label="Voltar produtos" (click)="scrollProducts('prev')">❮</button>
 
       <div class="carousel-track" #productTrack>
         <app-product-card *ngFor="let product of featuredProducts; trackBy: trackByProductId" [product]="product" />
       </div>
 
-      <button class="carousel-arrow next" type="button" aria-label="Avançar produtos" (click)="scrollProducts('next')">
-        ❯
-      </button>
+      <button class="carousel-arrow next" type="button" aria-label="Avançar produtos" (click)="scrollProducts('next')">❯</button>
     </div>
   </section>
 
-  <section class="vip-cta">
-    <div class="cta-container">
-      <div class="cta-text">
-        <h2>Quer ser uma das primeiras a saber tudo em primeira mão?</h2>
-        <p>Receba ofertas exclusivas, lançamentos e descontos especiais diretamente no seu celular!</p>
-
-        <a class="btn-whatsapp" href="#" target="_blank"
-          rel="noopener">
-          <i class="fab fa-whatsapp" aria-hidden="true"></i>
-          Falar com a Blummy Brands
+  <section class="about-brand" id="quem-somos">
+    <div class="about-brand-content">
+      <h1>Moda com identidade, desde 2017.</h1>
+      <p>
+        A <strong>Blumy Brands</strong> nasceu em um pequeno showroom em Águas Claras / DF,
+        unindo uma curadoria cuidadosa de peças a um atendimento próximo e individualizado.
+      </p>
+      <p>
+        Crescemos, incorporamos novas marcas e nos reinventamos sem perder a nossa essência:
+        selecionar peças com propósito, que valorizem o estilo, a confiança e a individualidade
+        de cada cliente.
+      </p>
+      <h1 class="adress-title">Onde nos encontrar?</h1>
+      <div class="adress">
+        <img src="assets/mapa.jpg" class="adress-icon" alt="Localização da Blumy Brands">
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=EQS+102%2F103+Centro+Empresarial+Sao+Francisco+Brasilia+DF"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="adress-link"
+        >
+          EQS 102/103 – Centro Empresarial São Francisco, loja 116, 1º e 2º andar
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" id="catalogos">
+    <h1 class="partners">Lojas Parceiras</h1>
+    <div class="accordion">
+      <div class="accordion-item" *ngFor="let brand of brands; trackBy: trackByBrand"
+        [ngClass]="{ active: activeAccordion === brand.name }">
+        <button class="accordion-btn" type="button" (click)="toggleAccordion(brand.name)">
+          <span>{{ brand.name }}</span>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
+        </button>
+        <div class="accordion-content">
+          <p>
+            <ng-container *ngFor="let catalog of brand.catalogs; trackBy: trackByCatalog">
+              <a [routerLink]="['/catalogo', brand.name, catalog]">{{ catalog }}</a><br>
+            </ng-container>
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="hero-carousel" aria-label="Outras imagens do catálogo">
     <div class="hero-track">
-      <a routerLink="/" class="hero-slide"
+      <a [routerLink]="['/catalogo', 'Uzee', 'Inverno 26']" class="hero-slide"
         *ngFor="let image of heroSlides; let index = index; trackBy: trackByHeroImage">
-        <img [src]="image" [alt]="'Imagem de catálogo ' + (index + 1)">
+        <img [src]="image" [alt]="'Imagem do catálogo Uzee Couro Inverno 26 ' + (index + 1)">
       </a>
     </div>
   </section>
 
-  <section class="about-brand" id="quem-somos">
-    <div class="about-brand-content">
-      <img src="assets/logo/logo.jpg" alt="Blummy Brands" class="about-logo">
-      <p>
-        Bem-vinda à <strong>Blummy Brands</strong>. Uma curadoria de moda criada para reunir
-        marcas, coleções e peças com identidade. Nossa proposta combina sofisticação,
-        qualidade e uma experiência de compra simples, elegante e próxima.
-      </p>
-    </div>
-  </section>
-
-  <section class="info-section" id="catalogos">
-  <div class="accordion">
-    <div
-      class="accordion-item"
-      *ngFor="let brand of brands; trackBy: trackByBrand"
-      [ngClass]="{ active: activeAccordion === brand.name }"
-    >
-      <button
-        class="accordion-btn"
-        type="button"
-        (click)="toggleAccordion(brand.name)"
-      >
-        <span>{{ brand.name }}</span>
-
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-          <polyline points="6 9 12 15 18 9" />
-        </svg>
-      </button>
-
-      <div class="accordion-content">
-        <p>
-          <ng-container *ngFor="let catalog of brand.catalogs; trackBy: trackByCatalog">
-            <a [routerLink]="['/catalogo', brand.name, catalog]">
-              {{ catalog }}
-            </a>
-            <br>
-          </ng-container>
-        </p>
+  <section class="vip-cta">
+    <div class="cta-container">
+      <div class="cta-text">
+        <h2>Quer receber novidades em primeira mão?</h2>
+        <p>Receba lançamentos, seleções e novidades da Blumy Brands diretamente no seu celular.</p>
+        <a class="btn-whatsapp" href="#" rel="noopener">
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          Falar com a Blumy Brands
+        </a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 </main>

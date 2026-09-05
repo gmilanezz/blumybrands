@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, map } from 'rxjs';
-import { ProductService } from './product.service';
 
 export interface CatalogItem {
   brand: string;
@@ -17,54 +16,36 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Cashier', 'Esmeral', 'Kaele', 'Mysk', 'Rock Lola', 'Outras Peças'],
+  brands: ['Uzee'],
   catalogs: [
-    { brand: 'Esmeral', catalog: 'Summer Dream' },
-    { brand: 'Esmeral', catalog: 'A Summer with Nat Bars' },
-    { brand: 'Kaele', catalog: 'Lucentia II' },
-    { brand: 'Kaele', catalog: 'Mamá Castilho' },
-    { brand: 'Esmeral', catalog: 'Basic' },
-    { brand: 'Mysk', catalog: 'Summer 27' },
-    { brand: 'Outras Peças', catalog: 'Looks Em Estoque' },
+    {
+      brand: 'Uzee',
+      catalog: 'Inverno 26'
+    }
   ]
 };
 
 @Injectable({ providedIn: 'root' })
 export class CatalogService {
+
   private readonly stateSubject = new BehaviorSubject<CatalogState>(
     this.loadInitialState()
   );
 
-  readonly state$: Observable<CatalogState> = this.stateSubject.asObservable();
+  readonly state$: Observable<CatalogState> =
+    this.stateSubject.asObservable();
 
-  readonly catalogs$: Observable<CatalogItem[]> = this.stateSubject.pipe(
-    map(state => state.catalogs)
-  );
+  readonly catalogs$: Observable<CatalogItem[]> =
+    this.stateSubject.pipe(
+      map(state => state.catalogs)
+    );
 
-  constructor(private readonly productService: ProductService) {
-    this.productService.products$.subscribe(products => {
-      const brands = products
-        .map(product => product.brand?.trim())
-        .filter((brand): brand is string => Boolean(brand));
-
-      const catalogs = products
-        .filter(product =>
-          Boolean(product.brand?.trim()) &&
-          Boolean(product.catalog?.trim())
-        )
-        .map(product => ({
-          brand: product.brand.trim(),
-          catalog: product.catalog.trim()
-        }));
-
-      this.mergeState(brands, catalogs);
-    });
-  }
+  // SEM CONSTRUCTOR
 
   getState(): CatalogState {
     return {
       brands: [...this.stateSubject.value.brands],
-      catalogs: this.stateSubject.value.catalogs.map((item) => ({ ...item }))
+      catalogs: this.stateSubject.value.catalogs.map(item => ({ ...item }))
     };
   }
 
@@ -358,3 +339,5 @@ export class CatalogService {
       .trim();
   }
 }
+
+localStorage.removeItem('blummybrands_catalog_state');

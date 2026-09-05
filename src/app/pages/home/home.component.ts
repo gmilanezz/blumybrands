@@ -29,20 +29,38 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/catalogs/esmeral/basic/39746.jpg',
-      mobileImage: 'assets/catalogs/esmeral/basic/39746-1.jpg',
-      alt: 'Catálogo Esmeral Basic',
+      desktopImage: 'assets/uzee-couro/150-1.jpg',
+      mobileImage: 'assets/uzee-couro/150-1.jpg',
+      alt: 'Blumy Brands - Esmeral Basic',
+      link: '/catalogo/Esmeral/Basic'
+    },
+    {
+      desktopImage: 'assets/uzee-couro/155-1.jpg',
+      mobileImage: 'assets/uzee-couro/155-1.jpg',
+      alt: 'Blumy Brands - Esmeral Basic',
+      link: '/catalogo/Esmeral/Basic'
+    },
+    {
+      desktopImage: 'assets/uzee-couro/156-1.jpg',
+      mobileImage: 'assets/uzee-couro/156-1.jpg',
+      alt: 'Blumy Brands - Esmeral Basic',
       link: '/catalogo/Esmeral/Basic'
     }
   ];
 
-  readonly heroSlides = [
-    'assets/catalogs/esmeral/basic/39649.jpg',
-    'assets/catalogs/esmeral/basic/39663.jpg',
-    'assets/catalogs/esmeral/basic/39625.jpg',
-    'assets/catalogs/esmeral/basic/38797.jpg'
+  private readonly heroImages = [
+    'assets/uzee-couro/150-1.jpg',
+    'assets/uzee-couro/150-8.jpg',
+    'assets/uzee-couro/155-23.jpg',
+    'assets/uzee-couro/156-5.jpg',
+    'assets/uzee-couro/1117-5.jpg',
+    'assets/uzee-couro/1123-3.jpg',
+    'assets/uzee-couro/1174-1.jpg'
   ];
 
+  readonly heroSlides = [...this.heroImages, ...this.heroImages];
+
+  private intervalId: number | undefined;
   private catalogSubscription?: Subscription;
 
   constructor(
@@ -51,29 +69,33 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-  this.featuredProducts = this.productService
-    .getProducts()
-    .filter(product =>
-      product.isActive &&
-      product.brand.toLowerCase() === 'esmeral' &&
-      product.catalog.toLowerCase() === 'basic'
-    )
-    .slice(0, 8);
+    this.featuredProducts = this.productService
+      .getProducts()
+      .filter(product =>
+        product.brand?.trim().toLowerCase() === 'uzee' &&
+        product.catalog?.trim().toLowerCase() === 'inverno 26' &&
+        product.isActive
+      )
+      .slice(0, 8);
 
-  this.catalogSubscription = this.catalogService.catalogs$.subscribe((catalogs: CatalogItem[]) => {
-    this.brands = this.groupCatalogsByBrand(catalogs);
+    this.catalogSubscription = this.catalogService.catalogs$.subscribe((catalogs: CatalogItem[]) => {
+      this.brands = this.groupCatalogsByBrand(catalogs);
 
-    if (
-      this.activeAccordion &&
-      !this.brands.some(brand => brand.name === this.activeAccordion)
-    ) {
-      this.activeAccordion = null;
-    }
-  });
+      if (
+        this.activeAccordion &&
+        !this.brands.some(brand => brand.name === this.activeAccordion)
+      ) {
+        this.activeAccordion = null;
+      }
+    });
 
-}
+    this.startCarousel();
+  }
 
   ngOnDestroy(): void {
+    if (this.intervalId) {
+      window.clearInterval(this.intervalId);
+    }
 
     this.catalogSubscription?.unsubscribe();
   }
@@ -149,4 +171,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       );
   }
 
+  private startCarousel(): void {
+    this.intervalId = window.setInterval(() => {
+      this.activeSlide = (this.activeSlide + 1) % this.slides.length;
+    }, 4500);
+  }
 }
