@@ -29,14 +29,14 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
-      desktopImage: 'assets/uzee-couro/150-1.jpg',
-      mobileImage: 'assets/uzee-couro/150-1.jpg',
+      desktopImage: 'assets/annefernandes/theannfclub/TP3002-1.jpg',
+      mobileImage: 'assets/annefernandes/theannfclub/TP3002-1.jpg',
       alt: 'Blumy Brands - Esmeral Basic',
       link: '/catalogo/Esmeral/Basic'
     },
     {
-      desktopImage: 'assets/uzee-couro/155-1.jpg',
-      mobileImage: 'assets/uzee-couro/155-1.jpg',
+      desktopImage: 'assets/zen/catalogo1/51388-1.jpg',
+      mobileImage: 'assets/zen/catalogo1/51388-1.jpg',
       alt: 'Blumy Brands - Esmeral Basic',
       link: '/catalogo/Esmeral/Basic'
     },

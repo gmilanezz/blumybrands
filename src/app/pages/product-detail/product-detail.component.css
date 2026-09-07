@@ -99,7 +99,6 @@
   display: flex;
   flex-direction: column;
   height: var(--main-image-height);
-  overflow-y: auto;
   justify-content: center;
   padding: 3rem 3rem;
 }
@@ -163,11 +162,12 @@
   display: inline-flex;
   gap: 0.45rem;
   padding: 0.7rem 0.95rem;
+  color: #fff;
 }
 
 .options button.active {
   background: var(--text-light);
-  color: var(--text-light);
+  color: #000;
 }
 
 .color-dot {

@@ -11,16 +11,24 @@ export interface CatalogState {
   catalogs: CatalogItem[];
 }
 
-const STORAGE_KEY = 'blummybrands_catalog_state';
+const STORAGE_KEY = 'blumybrands_catalog_state';
 const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Uzee'],
+  brands: ['Uzee', 'Anne Fernandes', 'Zen'],
   catalogs: [
     {
       brand: 'Uzee',
       catalog: 'Inverno 26'
+    },
+    {
+      brand: 'Anne Fernandes',
+      catalog: 'The Annf Club'
+    },
+    {
+      brand: 'Zen',
+      catalog: 'Catálogo 1'
     }
   ]
 };
@@ -340,4 +348,4 @@ export class CatalogService {
   }
 }
 
-localStorage.removeItem('blummybrands_catalog_state');
+localStorage.removeItem('blumybrands_catalog_state');
