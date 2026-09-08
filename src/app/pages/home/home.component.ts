@@ -49,13 +49,13 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
 
   private readonly heroImages = [
-    'assets/uzee-couro/150-1.jpg',
-    'assets/uzee-couro/150-8.jpg',
-    'assets/uzee-couro/155-23.jpg',
-    'assets/uzee-couro/156-5.jpg',
-    'assets/uzee-couro/1117-5.jpg',
-    'assets/uzee-couro/1123-3.jpg',
-    'assets/uzee-couro/1174-1.jpg'
+    'assets/annefernandes/theannfclub/SP1055-1.jpg',
+    'assets/annefernandes/theannfclub/TP1013-1.jpg',
+    'assets/annefernandes/theannfclub/TP2020-1.jpg',
+    'assets/annefernandes/theannfclub/TP4012-1.jpg',
+    'assets/annefernandes/theannfclub/TP1064-1.jpg',
+    'assets/annefernandes/theannfclub/TPJR9006-1.jpg',
+    'assets/annefernandes/theannfclub/TPJR9006-2.jpg'
   ];
 
   readonly heroSlides = [...this.heroImages, ...this.heroImages];

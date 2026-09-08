@@ -264,7 +264,7 @@
 
 .about-brand {
   background: #080808;
-  padding: 30px 30px 25px;
+  padding: 0px 30px 25px;
 }
 
 .about-brand-content {
@@ -330,7 +330,7 @@
 
 .info-section {
   background-color: #080808;
-  padding: 0px 0;
+  padding: 0px 20px 20px;
 }
 
 .partners {
