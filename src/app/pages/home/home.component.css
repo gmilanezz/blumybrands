@@ -186,9 +186,9 @@
 
 .btn-whatsapp {
   align-items: center;
-  background-color: #D8C48A;
+  background-color: #E8DDB8;
   border: 1px solid #D8C48A;
-  border-radius: 50px;
+  border-radius: 12px;
   color: #080808;
   cursor: pointer;
   display: inline-flex;
@@ -284,7 +284,6 @@
 .about-brand p {
   color: #E8DDB8;
   font-size: 1.5rem;
-  font-weight: 300;
   line-height: 1.8;
   margin: 0 auto 12px;
   max-width: 760px;
@@ -296,22 +295,21 @@
 }
 
 .adress-title {
-  margin-top: 20px !important;
-  margin-bottom: 5px !important;
+  margin-top: 40px !important;
+  margin-bottom: 15px !important;
 }
 
 .adress {
   align-items: center;
   display: flex;
-  gap: 18px;
   justify-content: center;
 }
 
 .adress-icon {
   flex-shrink: 0;
-  height: 60px;
+  height: 80px;
   object-fit: contain;
-  width: 60px;
+  width: 80px;
 }
 
 .adress-link {
@@ -320,8 +318,8 @@
   font-weight: 300;
   line-height: 1.5;
   text-align: left;
-  text-decoration: none;
   transition: color 0.3s ease;
+  text-decoration: underline;
 }
 
 .adress-link:hover {
@@ -330,11 +328,13 @@
 
 .info-section {
   background-color: #080808;
-  padding: 0px 20px 20px;
+  padding: 0px 0px 20px;
 }
 
 .partners {
   text-align: center;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .accordion {
@@ -343,15 +343,14 @@
 }
 
 .accordion-item {
-  background: #111111;
-  border: 1.5px solid #D8C48A;
+  border: none;
   overflow: hidden;
   transition: .35s;
 }
 
 .accordion-btn {
   align-items: center;
-  background: #111111;
+  background: #080808;
   border: none;
   cursor: pointer;
   display: flex;
@@ -364,7 +363,6 @@
   color: #D8C48A;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  font-weight: 700;
 }
 
 .icon {
@@ -379,7 +377,7 @@
 }
 
 .accordion-content {
-  background: #111111;
+  background: #080808;
   max-height: 0;
   overflow: hidden;
   transition: max-height .35s ease;
@@ -452,7 +450,7 @@
   }
 
   .about-brand {
-    padding: 35px 20px 45px;
+    padding: 0px 20px 30px;
   }
 
   .about-brand h1 {
@@ -460,25 +458,23 @@
   }
 
   .about-brand p {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     line-height: 1.7;
+    max-width: 460px;
   }
 
   .adress-title {
     margin-top: 45px !important;
   }
 
-  .adress {
-    gap: 12px;
-  }
-
   .adress-icon {
-    height: 44px;
-    width: 44px;
+    height: 30px;
+    width: 30px;
   }
 
   .adress-link {
-    font-size: .95rem;
+    font-size: 1.2rem;
+    max-width: 330px;
   }
 }
 
