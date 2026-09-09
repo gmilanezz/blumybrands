@@ -9,7 +9,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Top",
-    price: 481.80,
+    price: 482.00,
     description: "Top 150 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -39,7 +39,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Bege", hex: "#D8C3A5" },
       { name: "Vermelho", hex: "#B3202A" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -52,7 +52,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 767.80,
+    price: 768.00,
     description: "Saia 155 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -98,7 +98,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Azul Claro", hex: "#AFCFEA" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -111,7 +111,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Short",
-    price: 833.80,
+    price: 834.00,
     description: "Short 156 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -128,7 +128,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Bege", hex: "#D8C3A5" },
       { name: "Vermelho", hex: "#B3202A" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -141,7 +141,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Jaqueta",
-    price: 1537.80,
+    price: 1538.00,
     description: "Jaqueta 1007 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -154,7 +154,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Marrom", hex: "#6B3E2E" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -167,7 +167,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Jaqueta",
-    price: 1757.80,
+    price: 1758.00,
     description: "Jaqueta 1015 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -187,7 +187,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Bege", hex: "#D8C3A5" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -200,7 +200,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 1537.80,
+    price: 1538.00,
     description: "Saia 1023 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -242,7 +242,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Azul Claro", hex: "#AFCFEA" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -255,7 +255,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Vestido",
-    price: 1757.80,
+    price: 1758.00,
     description: "Vestido 1027 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -275,7 +275,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -288,7 +288,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 1339.80,
+    price: 1340.00,
     description: "Saia 1033 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -313,7 +313,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Nude", hex: "#D6A98C" },
       { name: "Vermelho", hex: "#B3202A" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -326,7 +326,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Regata",
-    price: 569.80,
+    price: 570.00,
     description: "Regata 1041 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -337,7 +337,7 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Off White", hex: "#F5F0E6" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -350,7 +350,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Regata",
-    price: 569.80,
+    price: 570.00,
     description: "Regata 1075 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -434,7 +434,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Azul Claro", hex: "#AFCFEA" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -447,7 +447,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "T-Shirt",
-    price: 833.80,
+    price: 834.00,
     description: "T-Shirt 1117 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -466,7 +466,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Vermelho", hex: "#B3202A" },
       { name: "Off White", hex: "#F5F0E6" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -479,7 +479,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "T-Shirt",
-    price: 877.80,
+    price: 878.00,
     description: "T-Shirt 1123 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -490,7 +490,7 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -503,7 +503,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Jaqueta",
-    price: 1757.80,
+    price: 1758.00,
     description: "Jaqueta 1174 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -530,7 +530,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -543,7 +543,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Blusa Decote V",
-    price: 657.80,
+    price: 658.00,
     description: "Blusa Decote V 1178 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -580,7 +580,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Azul Claro", hex: "#AFCFEA" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -593,7 +593,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 877.80,
+    price: 878.00,
     description: "Saia 1180 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -615,7 +615,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Nude", hex: "#D6A98C" },
       { name: "Vermelho", hex: "#B3202A" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -628,7 +628,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 877.80,
+    price: 878.00,
     description: "Saia 1184 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -652,7 +652,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Nude", hex: "#D6A98C" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -665,7 +665,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 1053.80,
+    price: 1054.00,
     description: "Camisa 1199 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -704,7 +704,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Azul Claro", hex: "#AFCFEA" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -717,7 +717,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Colete",
-    price: 1251.80,
+    price: 1252.00,
     description: "Colete 1203 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -735,7 +735,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Caramelo", hex: "#B87333" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -748,7 +748,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 1537.80,
+    price: 1538.00,
     description: "Saia 1204 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -760,7 +760,7 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Marrom", hex: "#6B3E2E" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -773,7 +773,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Saia",
-    price: 1537.80,
+    price: 1538.00,
     description: "Saia 1205 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -807,7 +807,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Nude", hex: "#D6A98C" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -820,7 +820,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 1163.80,
+    price: 1164.00,
     description: "Camisa 1208 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -833,7 +833,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Marrom", hex: "#6B3E2E" },
       { name: "Bege", hex: "#D8C3A5" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -863,7 +863,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -876,7 +876,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 1537.80,
+    price: 1538.00,
     description: "Camisa 1211 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -903,7 +903,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Bege", hex: "#D8C3A5" },
       { name: "Nude", hex: "#D6A98C" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -916,7 +916,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 1757.80,
+    price: 1758.00,
     description: "Camisa 1212 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -938,7 +938,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -951,7 +951,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Bermuda",
-    price: 1427.80,
+    price: 1428.00,
     description: "Bermuda 1213 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -983,7 +983,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Off White", hex: "#F5F0E6" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -996,7 +996,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Calça",
-    price: 1977.80,
+    price: 1978.00,
     description: "Calça 1214 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -1010,7 +1010,7 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -1023,7 +1023,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 1757.80,
+    price: 1758.00,
     description: "Camisa 1215 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -1037,7 +1037,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Caramelo", hex: "#B87333" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -1050,7 +1050,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Camisa",
-    price: 2109.80,
+    price: 2110.00,
     description: "Camisa 1217 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -1064,7 +1064,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Marrom", hex: "#6B3E2E" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -1092,7 +1092,7 @@ export const MOCK_PRODUCTS: Product[] = [
       { name: "Bordô", hex: "#6D1F2F" },
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -1105,7 +1105,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Uzee",
     catalog: "Inverno 26",
     category: "Bomber Jacket",
-    price: 1757.80,
+    price: 1758.00,
     description: "Bomber Jacket 1221 do catálogo Uzee Couro - Inverno 26.",
     composition: "Couro legítimo",
     images: [
@@ -1115,7 +1115,7 @@ export const MOCK_PRODUCTS: Product[] = [
     colors: [
       { name: "Preto", hex: "#111111" },
     ],
-    sizes: [],
+    sizes: ["36", "38", "40", "42"],
     stock: 5,
     isActive: true,
     createdAt: "2026-09-05"
@@ -1128,7 +1128,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Bata",
-    price: 1247.25,
+    price: 1247.00,
     description: "Bata com Renda TP1013 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Viscolinho com Renda",
     images: [
@@ -1150,7 +1150,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Short",
-    price: 724.75,
+    price: 725.00,
     description: "Short Alfaiataria TP4012 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Viscolinho",
     images: [
@@ -1172,7 +1172,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Cinto",
-    price: 497.25,
+    price: 497.00,
     description: "Cinto Fino TPJR9005 do catálogo Anne Fernandes - The Annf Club.",
     composition: "",
     images: [
@@ -1195,7 +1195,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Saia",
-    price: 1247.25,
+    price: 1247.00,
     description: "Saia Babado na Barra SP3027 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Jacquard em Organza",
     images: [
@@ -1217,7 +1217,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Blusa",
-    price: 747.25,
+    price: 747.00,
     description: "Blusa Amarração SP1055 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Jacquard em Organza",
     images: [
@@ -1239,7 +1239,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Sandália",
-    price: 1847.50,
+    price: 1848.00,
     description: "Sandália Salto Tassel TT9000 do catálogo Anne Fernandes - The Annf Club.",
     composition: "",
     images: [
@@ -1262,7 +1262,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Saia",
-    price: 1247.25,
+    price: 1247.00,
     description: "Saia Midi Peplum TP3010 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Crepe Comfort",
     images: [
@@ -1284,7 +1284,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Regata",
-    price: 624.75,
+    price: 625.00,
     description: "Regata Sobreposição TP1079 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Malha Canelada",
     images: [
@@ -1308,7 +1308,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Cinto",
-    price: 774.75,
+    price: 775.00,
     description: "Cinto Bicolor TPJR9006 do catálogo Anne Fernandes - The Annf Club.",
     composition: "",
     images: [
@@ -1333,7 +1333,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Calça",
-    price: 1197.25,
+    price: 1197.00,
     description: "Calça Barrel TP2020 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Algodão Papelado",
     images: [
@@ -1355,7 +1355,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Jaqueta",
-    price: 1497.25,
+    price: 1497.00,
     description: "Jaqueta Transpassada TP6004 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Algodão Papelado",
     images: [
@@ -1377,7 +1377,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Lenço",
-    price: 624.75,
+    price: 625.00,
     description: "Lenço Triângulos TPGB9012 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Cetim",
     images: [
@@ -1399,7 +1399,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Cinto",
-    price: 824.75,
+    price: 825.00,
     description: "Cinto Trançado TPJR9007 do catálogo Anne Fernandes - The Annf Club.",
     composition: "",
     images: [
@@ -1422,7 +1422,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "T-Shirt",
-    price: 599.75,
+    price: 600.00,
     description: "T-Shirt Listras TP1064 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Malha de Algodão Canelada",
     images: [
@@ -1445,7 +1445,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Saia",
-    price: 997.25,
+    price: 997.00,
     description: "Saia Midi TP3002 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Tricoline",
     images: [
@@ -1467,7 +1467,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Lenço",
-    price: 624.75,
+    price: 625.00,
     description: "Lenço Floral TPGB9009 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Cetim",
     images: [
@@ -1489,7 +1489,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Camisa",
-    price: 747.25,
+    price: 747.00,
     description: "Camisa Colarinho Ponta TP1027 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Tricoline",
     images: [
@@ -1511,7 +1511,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "The Annf Club",
     category: "Saia",
-    price: 747.25,
+    price: 747.00,
     description: "Saia Balonê TP3008 do catálogo Anne Fernandes - The Annf Club.",
     composition: "Tricoline",
     images: [
@@ -1533,7 +1533,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Cropped",
-    price: 997.50,
+    price: 998.00,
     description: "Cropped de Alça Recorte Decote e Barbatanas 51391 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1558,7 +1558,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Saia",
-    price: 1197.50,
+    price: 1198.00,
     description: "Saia Midi Cós Largo Frente e Costas Alongadas 48403 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1583,7 +1583,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Cropped",
-    price: 1097.50,
+    price: 1098.00,
     description: "Cropped Tomara Que Caia Recortes com Barbatanas 51388 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1611,7 +1611,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Calça",
-    price: 1097.50,
+    price: 1098.00,
     description: "Calça Baggy Jeans Vintage Cintura Média 45198 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1634,7 +1634,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Vestido",
-    price: 2247.50,
+    price: 2248.00,
     description: "Vestido Midi Tomara Que Caia Zíper de Metal Frontal 11753 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1659,7 +1659,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Vestido",
-    price: 1697.50,
+    price: 1698.00,
     description: "Vestido Midi Decote V Costas e Aberturas Laterais 11757 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1685,7 +1685,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Vestido",
-    price: 1997.50,
+    price: 1998.00,
     description: "Vestido Midi Decote Assimétrico Estruturado 11659 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [
@@ -1709,7 +1709,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "ZEN",
     catalog: "Catálogo 1",
     category: "Blusa",
-    price: 997.50,
+    price: 998.00,
     description: "Blusa Manga Longa Fluida Franzidos Gola e Corpo 51386 do catálogo ZEN - catálogo 1.",
     composition: "Não informado no catálogo",
     images: [

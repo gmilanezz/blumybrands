@@ -125,12 +125,11 @@
 .carousel-arrow {
   background: none;
   border: none;
-  color: #080808;
+  color: #E8DDB8;
   cursor: pointer;
   display: none;
   font-size: 2.1rem;
   height: 48px;
-  opacity: 0.75;
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
@@ -140,8 +139,6 @@
 }
 
 .carousel-arrow:hover {
-  color: #D8C48A;
-  opacity: 1;
   transform: translateY(-50%) scale(1.2);
 }
 
@@ -307,9 +304,9 @@
 
 .adress-icon {
   flex-shrink: 0;
-  height: 80px;
+  height: 35px;
   object-fit: contain;
-  width: 80px;
+  width: 50px;
 }
 
 .adress-link {

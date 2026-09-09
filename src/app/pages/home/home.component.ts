@@ -44,7 +44,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       desktopImage: 'assets/uzee-couro/156-1.jpg',
       mobileImage: 'assets/uzee-couro/156-1.jpg',
       alt: 'Uzee Couro - Inverno 26',
-      link: '/catalogo/Uzee Couro/Inverno 26'
+      link: '/catalogo/Uzee/Inverno 26'
     }
   ];
 
