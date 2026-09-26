@@ -16,7 +16,7 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Uzee', 'Anne Fernandes', 'Zen'],
+  brands: ['Anne Fernandes', 'Corgie', 'Rock Lola', 'Uzee',  'Zen',],
   catalogs: [
     {
       brand: 'Uzee',
@@ -27,8 +27,20 @@ const DEFAULT_STATE: CatalogState = {
       catalog: 'The Annf Club'
     },
     {
+      brand: 'Anne Fernandes',
+      catalog: 'Verão 27'
+    },
+    {
       brand: 'Zen',
       catalog: 'Catálogo 1'
+    },
+    {
+      brand: 'Corgie',
+      catalog: 'Aurea'
+    },
+    {
+      brand: 'Rock Lola',
+      catalog: 'Latina Perú'
     }
   ]
 };
@@ -47,8 +59,6 @@ export class CatalogService {
     this.stateSubject.pipe(
       map(state => state.catalogs)
     );
-
-  // SEM CONSTRUCTOR
 
   getState(): CatalogState {
     return {

@@ -1723,5 +1723,740 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: 5,
     isActive: true,
     createdAt: "2026-09-07"
+  },
+  {
+    id: 57,
+    code: "TP5006",
+    name: "Vestido Balonê Tule Leve TP5006",
+    slug: "vestido-balone-tule-leve-tp5006",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Vestido",
+    price: 2474.75,
+    description: "Vestido Balonê Tule Leve TP5006 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Tule leve",
+    images: [
+      'assets/annefernandes/verao27/TP5006-1.jpg'
+    ],
+    colors: [
+      { name: "Amarelo", hex: "#F2D675" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 58,
+    code: "TP5015",
+    name: "Vestido Midi Renda TP5015",
+    slug: "vestido-midi-renda-tp5015",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Vestido",
+    price: 1997.25,
+    description: "Vestido Midi Renda TP5015 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe de viscose e tule",
+    images: [
+      'assets/annefernandes/verao27/TP5015-1.jpg'
+    ],
+    colors: [
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 59,
+    code: "RP5072",
+    name: "Vestido Mini Renda Guipure RP5072",
+    slug: "vestido-mini-renda-guipure-rp5072",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Vestido",
+    price: 2727.25,
+    description: "Vestido Mini Renda Guipure RP5072 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Renda guipure",
+    images: [
+      'assets/annefernandes/verao27/RP5072-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 60,
+    code: "TP8006",
+    name: "Conjunto Aplicação Flor TP8006",
+    slug: "conjunto-aplicacao-flor-tp8006",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Conjunto",
+    price: 3727.25,
+    description: "Conjunto Aplicação Flor TP8006 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Alfaiataria leve",
+    images: [
+      'assets/annefernandes/verao27/TP8006-1.jpg'
+    ],
+    colors: [
+      { name: "Rosa", hex: "#E8A9B5" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 61,
+    code: "TP8027",
+    name: "Conjunto Pantalona e Blusa TP8027",
+    slug: "conjunto-pantalona-e-blusa-tp8027",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Conjunto",
+    price: 2224.75,
+    description: "Conjunto Pantalona e Blusa TP8027 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe acetinado",
+    images: [
+      'assets/annefernandes/verao27/TP8027-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 62,
+    code: "RP5071",
+    name: "Vestido Texturizado e Renda RP5071",
+    slug: "vestido-texturizado-e-renda-rp5071",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Vestido",
+    price: 1997.25,
+    description: "Vestido Texturizado e Renda RP5071 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/annefernandes/verao27/RP5071-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 63,
+    code: "TP5012",
+    name: "Vestido Mini Babados Renda TP5012",
+    slug: "vestido-mini-babados-renda-tp5012",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Vestido",
+    price: 2474.75,
+    description: "Vestido Mini Babados Renda TP5012 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe de viscose acetinado",
+    images: [
+      'assets/annefernandes/verao27/TP5012-1.jpg'
+    ],
+    colors: [
+      { name: "Champagne", hex: "#E8D6B3" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 64,
+    code: "TP1033",
+    name: "Corset Ombro a Ombro TP1033",
+    slug: "corset-ombro-a-ombro-tp1033",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Corset",
+    price: 997.25,
+    description: "Corset Ombro a Ombro TP1033 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Algodão papelado",
+    images: [
+      'assets/annefernandes/verao27/TP1033-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 65,
+    code: "SP2093",
+    name: "Calça Barrel SP2093",
+    slug: "calca-barrel-sp2093",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Calça",
+    price: 1497.25,
+    description: "Calça Barrel SP2093 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Jeans",
+    images: [
+      'assets/annefernandes/verao27/SP2093-1.jpg'
+    ],
+    colors: [
+      { name: "Jeans", hex: "#6F8FAF" }
+    ],
+    sizes: ["34", "36", "38", "40", "42", "44"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 66,
+    code: "TP7005",
+    name: "Macacão Lapela Costas TP7005",
+    slug: "macacao-lapela-costas-tp7005",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Macacão",
+    price: 1997.25,
+    description: "Macacão Lapela Costas TP7005 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe alfaiataria",
+    images: [
+      'assets/annefernandes/verao27/TP7005-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 67,
+    code: "TP8048",
+    name: "Conjunto 3 Peças TP8048",
+    slug: "conjunto-3-pecas-tp8048",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Conjunto",
+    price: 2247.25,
+    description: "Conjunto 3 Peças TP8048 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Tricoline fio tinto",
+    images: [
+      'assets/annefernandes/verao27/TP8048-1.jpg'
+    ],
+    colors: [
+      { name: "Rosa", hex: "#E8A9B5" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 68,
+    code: "TP6009",
+    name: "Jaqueta Corta Vento TP6009",
+    slug: "jaqueta-corta-vento-tp6009",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Jaqueta",
+    price: 1224.75,
+    description: "Jaqueta Corta Vento TP6009 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe de liocel",
+    images: [
+      'assets/annefernandes/verao27/TP6009-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" },
+      { name: "Rosa", hex: "#E8A9B5" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 69,
+    code: "TP8008",
+    name: "Conjunto Corset e Calça TP8008",
+    slug: "conjunto-corset-e-calca-tp8008",
+    brand: "Anne Fernandes",
+    catalog: "Verão 27",
+    category: "Conjunto",
+    price: 2224.75,
+    description: "Conjunto Corset e Calça TP8008 do catálogo Anne Fernandes - Verão 27.",
+    composition: "Crepe de liocel",
+    images: [
+      'assets/annefernandes/verao27/TP8008-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 70,
+    code: "BL000245",
+    name: "Blusa Capa Estampada BL000245",
+    slug: "blusa-capa-estampada-bl000245",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Blusa",
+    price: 772.50,
+    description: "Blusa Capa Estampada BL000245 do catálogo Corgie - Aurea.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/corgie/aurea/BL000245-1.jpg'
+    ],
+    colors: [
+      { name: "Estampado", hex: "#27334A" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 71,
+    code: "CL000228",
+    name: "Calça Sarja Off CL000228",
+    slug: "calca-sarja-off-cl000228",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Calça",
+    price: 897.50,
+    description: "Calça Sarja Off CL000228 do catálogo Corgie - Aurea.",
+    composition: "Sarja",
+    images: [
+      'assets/corgie/aurea/CL000228-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 72,
+    code: "BL000246",
+    name: "Blusa Gola Alta Estampada BL000246",
+    slug: "blusa-gola-alta-estampada-bl000246",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Blusa",
+    price: 672.50,
+    description: "Blusa Gola Alta Estampada BL000246 do catálogo Corgie - Aurea.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/corgie/aurea/BL000246-1.jpg'
+    ],
+    colors: [
+      { name: "Estampado", hex: "#27334A" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 73,
+    code: "CL000225",
+    name: "Calça Alfaiataria Risca de Giz CL000225",
+    slug: "calca-alfaiataria-risca-de-giz-cl000225",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Calça",
+    price: 1022.50,
+    description: "Calça Alfaiataria Risca de Giz CL000225 do catálogo Corgie - Aurea.",
+    composition: "Alfaiataria",
+    images: [
+      'assets/corgie/aurea/CL000225-1.jpg',
+      'assets/corgie/aurea/CL000225-2.jpg'
+    ],
+    colors: [
+      { name: "Azul Marinho", hex: "#233044" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 74,
+    code: "CMS00084",
+    name: "Camisa Tricoline com Laço CMS00084",
+    slug: "camisa-tricoline-com-laco-cms00084",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Camisa",
+    price: 1097.50,
+    description: "Camisa Tricoline com Laço CMS00084 do catálogo Corgie - Aurea.",
+    composition: "Tricoline",
+    images: [
+      'assets/corgie/aurea/CMS00084-1.jpg',
+      'assets/corgie/aurea/CMS00084-2.jpg'
+    ],
+    colors: [
+      { name: "Branco", hex: "#F7F7F5" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 75,
+    code: "CL000226",
+    name: "Calça Jeans Pesponto Azul CL000226",
+    slug: "calca-jeans-pesponto-azul-cl000226",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Calça",
+    price: 897.50,
+    description: "Calça Jeans Pesponto Azul CL000226 do catálogo Corgie - Aurea.",
+    composition: "Jeans",
+    images: [
+      'assets/corgie/aurea/CL000226-1.jpg',
+      'assets/corgie/aurea/CL000226-2.jpg'
+    ],
+    colors: [
+      { name: "Cinza", hex: "#777777" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 76,
+    code: "BLS00046",
+    name: "Blazer Cropped BLS00046",
+    slug: "blazer-cropped-bls00046",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Blazer",
+    price: 1247.50,
+    description: "Blazer Cropped BLS00046 do catálogo Corgie - Aurea.",
+    composition: "Alfaiataria",
+    images: [
+      'assets/corgie/aurea/BLS00046-1.jpg',
+      'assets/corgie/aurea/BLS00046-2.jpg'
+    ],
+    colors: [
+      { name: "Azul Claro", hex: "#C8D9DC" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 77,
+    code: "CR000215",
+    name: "Corset Estruturado CR000215",
+    slug: "corset-estruturado-cr000215",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Corset",
+    price: 822.50,
+    description: "Corset Estruturado CR000215 do catálogo Corgie - Aurea.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/corgie/aurea/CR000215-1.jpg',
+      'assets/corgie/aurea/CR000215-2.jpg'
+    ],
+    colors: [
+      { name: "Azul Claro", hex: "#C8D9DC" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 78,
+    code: "CL000222",
+    name: "Calça Alfaiataria Detalhe Cós CL000222",
+    slug: "calca-alfaiataria-detalhe-cos-cl000222",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Calça",
+    price: 1022.50,
+    description: "Calça Alfaiataria Detalhe Cós CL000222 do catálogo Corgie - Aurea.",
+    composition: "Alfaiataria",
+    images: [
+      'assets/corgie/aurea/CL000222-1.jpg',
+      'assets/corgie/aurea/CL000222-2.jpg'
+    ],
+    colors: [
+      { name: "Azul Claro", hex: "#C8D9DC" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 79,
+    code: "CR000217",
+    name: "Cropped Decote Quadrado CR000217",
+    slug: "cropped-decote-quadrado-cr000217",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Cropped",
+    price: 772.50,
+    description: "Cropped Decote Quadrado CR000217 do catálogo Corgie - Aurea.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/corgie/aurea/CR000217-1.jpg'
+    ],
+    colors: [
+      { name: "Azul Marinho", hex: "#233044" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 80,
+    code: "BLS00045",
+    name: "Blazer Alfaiataria Risca de Giz BLS00045",
+    slug: "blazer-alfaiataria-risca-de-giz-bls00045",
+    brand: "Corgie",
+    catalog: "Aurea",
+    category: "Blazer",
+    price: 1497.50,
+    description: "Blazer Alfaiataria Risca de Giz BLS00045 do catálogo Corgie - Aurea.",
+    composition: "Alfaiataria",
+    images: [
+      'assets/corgie/aurea/BLS00045-1.jpg'
+    ],
+    colors: [
+      { name: "Azul Marinho", hex: "#233044" }
+    ],
+    sizes: [],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 81,
+    code: "MA010059",
+    name: "Macacão Celiane Tule MA010059",
+    slug: "macacao-celiane-tule-ma010059",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Macacão",
+    price: 1149.97,
+    description: "Macacão Celiane Tule MA010059 do catálogo Rock Lola - Latina Perú.",
+    composition: "Tule com renda aplicada",
+    images: [
+      'assets/rocklola/latinaperu/MA010059-1.jpg'
+    ],
+    colors: [
+      { name: "Creole Pink", hex: "#E9B7B2" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 82,
+    code: "BL090175",
+    name: "Corset Bordado Ramona BL090175",
+    slug: "corset-bordado-ramona-bl090175",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Corset",
+    price: 1399.97,
+    description: "Corset Bordado Ramona BL090175 do catálogo Rock Lola - Latina Perú.",
+    composition: "Bordado",
+    images: [
+      'assets/rocklola/latinaperu/BL090175-1.jpg'
+    ],
+    colors: [
+      { name: "Bright White", hex: "#F8F8F3" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 83,
+    code: "CA090026",
+    name: "Calça Esperanza Jeans CA090026",
+    slug: "calca-esperanza-jeans-ca090026",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Calça",
+    price: 674.98,
+    description: "Calça Esperanza Jeans CA090026 do catálogo Rock Lola - Latina Perú.",
+    composition: "Jeans",
+    images: [
+      'assets/rocklola/latinaperu/CA090026-1.jpg',
+      'assets/rocklola/latinaperu/CA090026-2.jpg'
+    ],
+    colors: [
+      { name: "Azul Jeans", hex: "#A8C6DB" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 84,
+    code: "MA010060",
+    name: "Macacão Consuelo Alfaiataria MA010060",
+    slug: "macacao-consuelo-alfaiataria-ma010060",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Macacão",
+    price: 899.98,
+    description: "Macacão Consuelo Alfaiataria MA010060 do catálogo Rock Lola - Latina Perú.",
+    composition: "Alfaiataria entretelada",
+    images: [
+      'assets/rocklola/latinaperu/MA010060-1.jpg'
+    ],
+    colors: [
+      { name: "Black Beauty", hex: "#1B1B1D" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 85,
+    code: "BL010208",
+    name: "Camisa Celiane Tule BL010208",
+    slug: "camisa-celiane-tule-bl010208",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Camisa",
+    price: 899.98,
+    description: "Camisa Celiane Tule BL010208 do catálogo Rock Lola - Latina Perú.",
+    composition: "Tule com renda aplicada",
+    images: [
+      'assets/rocklola/latinaperu/BL010208-1.jpg'
+    ],
+    colors: [
+      { name: "Creole Pink", hex: "#E9B7B2" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 86,
+    code: "BL110057",
+    name: "Regata Cecilia Chiffon BL110057",
+    slug: "regata-cecilia-chiffon-bl110057",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Regata",
+    price: 474.98,
+    description: "Regata Cecilia Chiffon BL110057 do catálogo Rock Lola - Latina Perú.",
+    composition: "Chiffon",
+    images: [
+      'assets/rocklola/latinaperu/BL110057-1.jpg'
+    ],
+    colors: [
+      { name: "Black Beauty", hex: "#1B1B1D" },
+      { name: "Tickled Pink", hex: "#F28FB3" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 87,
+    code: "CA130053",
+    name: "Calça Cecilia Chiffon CA130053",
+    slug: "calca-cecilia-chiffon-ca130053",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Calça",
+    price: 724.98,
+    description: "Calça Cecilia Chiffon CA130053 do catálogo Rock Lola - Latina Perú.",
+    composition: "Chiffon",
+    images: [
+      'assets/rocklola/latinaperu/CA130053-1.jpg'
+    ],
+    colors: [
+      { name: "Tickled Pink", hex: "#F28FB3" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 88,
+    code: "VE030277",
+    name: "Vestido Celiane Tule VE030277",
+    slug: "vestido-celiane-tule-ve030277",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Vestido",
+    price: 1499.97,
+    description: "Vestido Celiane Tule VE030277 do catálogo Rock Lola - Latina Perú.",
+    composition: "Tule com renda aplicada",
+    images: [
+      'assets/rocklola/latinaperu/VE030277-1.jpg'
+    ],
+    colors: [
+      { name: "Creole Pink", hex: "#E9B7B2" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
+  },
+  {
+    id: 89,
+    code: "VE010470",
+    name: "Vestido Bordado Ramona VE010470",
+    slug: "vestido-bordado-ramona-ve010470",
+    brand: "Rock Lola",
+    catalog: "Latina Perú",
+    category: "Vestido",
+    price: 2499.97,
+    description: "Vestido Bordado Ramona VE010470 do catálogo Rock Lola - Latina Perú.",
+    composition: "Bordado",
+    images: [
+      'assets/rocklola/latinaperu/VE010470-1.jpg'
+    ],
+    colors: [
+      { name: "Bright White", hex: "#F8F8F3" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-09-26"
   }
 ];
