@@ -1732,7 +1732,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Vestido",
-    price: 2474.75,
+    price: 2475.00,
     description: "Vestido Balonê Tule Leve TP5006 do catálogo Anne Fernandes - Verão 27.",
     composition: "Tule leve",
     images: [
@@ -1754,7 +1754,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Vestido",
-    price: 1997.25,
+    price: 1997.00,
     description: "Vestido Midi Renda TP5015 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe de viscose e tule",
     images: [
@@ -1776,7 +1776,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Vestido",
-    price: 2727.25,
+    price: 2727.00,
     description: "Vestido Mini Renda Guipure RP5072 do catálogo Anne Fernandes - Verão 27.",
     composition: "Renda guipure",
     images: [
@@ -1798,7 +1798,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Conjunto",
-    price: 3727.25,
+    price: 3727.00,
     description: "Conjunto Aplicação Flor TP8006 do catálogo Anne Fernandes - Verão 27.",
     composition: "Alfaiataria leve",
     images: [
@@ -1820,7 +1820,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Conjunto",
-    price: 2224.75,
+    price: 2225.00,
     description: "Conjunto Pantalona e Blusa TP8027 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe acetinado",
     images: [
@@ -1842,7 +1842,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Vestido",
-    price: 1997.25,
+    price: 1997.00,
     description: "Vestido Texturizado e Renda RP5071 do catálogo Anne Fernandes - Verão 27.",
     composition: "Não informado no catálogo",
     images: [
@@ -1864,7 +1864,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Vestido",
-    price: 2474.75,
+    price: 2475.00,
     description: "Vestido Mini Babados Renda TP5012 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe de viscose acetinado",
     images: [
@@ -1886,7 +1886,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Corset",
-    price: 997.25,
+    price: 997.00,
     description: "Corset Ombro a Ombro TP1033 do catálogo Anne Fernandes - Verão 27.",
     composition: "Algodão papelado",
     images: [
@@ -1908,7 +1908,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Calça",
-    price: 1497.25,
+    price: 1497.00,
     description: "Calça Barrel SP2093 do catálogo Anne Fernandes - Verão 27.",
     composition: "Jeans",
     images: [
@@ -1930,7 +1930,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Macacão",
-    price: 1997.25,
+    price: 1997.00,
     description: "Macacão Lapela Costas TP7005 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe alfaiataria",
     images: [
@@ -1952,7 +1952,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Conjunto",
-    price: 2247.25,
+    price: 2247.00,
     description: "Conjunto 3 Peças TP8048 do catálogo Anne Fernandes - Verão 27.",
     composition: "Tricoline fio tinto",
     images: [
@@ -1974,7 +1974,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Jaqueta",
-    price: 1224.75,
+    price: 1225.00,
     description: "Jaqueta Corta Vento TP6009 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe de liocel",
     images: [
@@ -1997,7 +1997,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Anne Fernandes",
     catalog: "Verão 27",
     category: "Conjunto",
-    price: 2224.75,
+    price: 2225.00,
     description: "Conjunto Corset e Calça TP8008 do catálogo Anne Fernandes - Verão 27.",
     composition: "Crepe de liocel",
     images: [
@@ -2019,7 +2019,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Blusa",
-    price: 772.50,
+    price: 773.00,
     description: "Blusa Capa Estampada BL000245 do catálogo Corgie - Aurea.",
     composition: "Não informado no catálogo",
     images: [
@@ -2041,7 +2041,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Calça",
-    price: 897.50,
+    price: 898.00,
     description: "Calça Sarja Off CL000228 do catálogo Corgie - Aurea.",
     composition: "Sarja",
     images: [
@@ -2063,7 +2063,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Blusa",
-    price: 672.50,
+    price: 673.00,
     description: "Blusa Gola Alta Estampada BL000246 do catálogo Corgie - Aurea.",
     composition: "Não informado no catálogo",
     images: [
@@ -2085,7 +2085,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Calça",
-    price: 1022.50,
+    price: 1023.00,
     description: "Calça Alfaiataria Risca de Giz CL000225 do catálogo Corgie - Aurea.",
     composition: "Alfaiataria",
     images: [
@@ -2108,7 +2108,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Camisa",
-    price: 1097.50,
+    price: 1098.00,
     description: "Camisa Tricoline com Laço CMS00084 do catálogo Corgie - Aurea.",
     composition: "Tricoline",
     images: [
@@ -2131,7 +2131,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Calça",
-    price: 897.50,
+    price: 898.00,
     description: "Calça Jeans Pesponto Azul CL000226 do catálogo Corgie - Aurea.",
     composition: "Jeans",
     images: [
@@ -2154,7 +2154,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Blazer",
-    price: 1247.50,
+    price: 1248.00,
     description: "Blazer Cropped BLS00046 do catálogo Corgie - Aurea.",
     composition: "Alfaiataria",
     images: [
@@ -2177,7 +2177,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Corset",
-    price: 822.50,
+    price: 823.00,
     description: "Corset Estruturado CR000215 do catálogo Corgie - Aurea.",
     composition: "Não informado no catálogo",
     images: [
@@ -2200,7 +2200,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Calça",
-    price: 1022.50,
+    price: 1023.00,
     description: "Calça Alfaiataria Detalhe Cós CL000222 do catálogo Corgie - Aurea.",
     composition: "Alfaiataria",
     images: [
@@ -2223,7 +2223,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Cropped",
-    price: 772.50,
+    price: 773.00,
     description: "Cropped Decote Quadrado CR000217 do catálogo Corgie - Aurea.",
     composition: "Não informado no catálogo",
     images: [
@@ -2245,7 +2245,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Corgie",
     catalog: "Aurea",
     category: "Blazer",
-    price: 1497.50,
+    price: 1498.00,
     description: "Blazer Alfaiataria Risca de Giz BLS00045 do catálogo Corgie - Aurea.",
     composition: "Alfaiataria",
     images: [
@@ -2267,7 +2267,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Macacão",
-    price: 1149.97,
+    price: 1150.00,
     description: "Macacão Celiane Tule MA010059 do catálogo Rock Lola - Latina Perú.",
     composition: "Tule com renda aplicada",
     images: [
@@ -2289,7 +2289,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Corset",
-    price: 1399.97,
+    price: 1400.00,
     description: "Corset Bordado Ramona BL090175 do catálogo Rock Lola - Latina Perú.",
     composition: "Bordado",
     images: [
@@ -2311,7 +2311,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Calça",
-    price: 674.98,
+    price: 675.00,
     description: "Calça Esperanza Jeans CA090026 do catálogo Rock Lola - Latina Perú.",
     composition: "Jeans",
     images: [
@@ -2334,7 +2334,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Macacão",
-    price: 899.98,
+    price: 900.00,
     description: "Macacão Consuelo Alfaiataria MA010060 do catálogo Rock Lola - Latina Perú.",
     composition: "Alfaiataria entretelada",
     images: [
@@ -2356,7 +2356,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Camisa",
-    price: 899.98,
+    price: 900.00,
     description: "Camisa Celiane Tule BL010208 do catálogo Rock Lola - Latina Perú.",
     composition: "Tule com renda aplicada",
     images: [
@@ -2378,7 +2378,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Regata",
-    price: 474.98,
+    price: 475.00,
     description: "Regata Cecilia Chiffon BL110057 do catálogo Rock Lola - Latina Perú.",
     composition: "Chiffon",
     images: [
@@ -2401,7 +2401,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Calça",
-    price: 724.98,
+    price: 725.00,
     description: "Calça Cecilia Chiffon CA130053 do catálogo Rock Lola - Latina Perú.",
     composition: "Chiffon",
     images: [
@@ -2423,7 +2423,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Vestido",
-    price: 1499.97,
+    price: 1500.00,
     description: "Vestido Celiane Tule VE030277 do catálogo Rock Lola - Latina Perú.",
     composition: "Tule com renda aplicada",
     images: [
@@ -2445,7 +2445,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "Rock Lola",
     catalog: "Latina Perú",
     category: "Vestido",
-    price: 2499.97,
+    price: 2500.00,
     description: "Vestido Bordado Ramona VE010470 do catálogo Rock Lola - Latina Perú.",
     composition: "Bordado",
     images: [
