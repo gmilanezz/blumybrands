@@ -16,7 +16,7 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Anne Fernandes', 'Corgie', 'Esmeral', 'LeBlog', 'Rock Lola', 'Uzee',  'Zen',],
+  brands: ['Anne Fernandes', 'Corgie', 'Esmeral', 'LeBlog', 'Ln', 'Rock Lola', 'Skazi', 'Tufi Duek', 'Uzee',  'Zen',],
   catalogs: [
     {
       brand: 'Uzee',
@@ -53,6 +53,18 @@ const DEFAULT_STATE: CatalogState = {
     {
       brand: 'LeBlog',
       catalog: 'Golden Hour'
+    },
+    {
+      brand: 'Ln',
+      catalog: 'St. Tropez'
+    },
+    {
+      brand: 'Skazi',
+      catalog: 'Solare - Orla Drop IV'
+    },
+    {
+      brand: 'Tufi Duek',
+      catalog: 'Waveland'
     }
   ]
 };
