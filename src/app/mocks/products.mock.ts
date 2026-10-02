@@ -2882,11 +2882,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Elis 10482 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10482-1.jpg',
-      'assets/leblog/golden-hour/10482-2.jpg',
       'assets/leblog/golden-hour/10482-3.jpg',
-      'assets/leblog/golden-hour/10482-4.jpg',
-      'assets/leblog/golden-hour/10482-5.jpg',
       'assets/leblog/golden-hour/10482-6.jpg',
     
     ],
@@ -2910,7 +2906,6 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Debbie 10023 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10023-1.jpg',
       'assets/leblog/golden-hour/10023-2.jpg',
     
     ],
@@ -2935,8 +2930,6 @@ export const MOCK_PRODUCTS: Product[] = [
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10481-1.jpg',
-      'assets/leblog/golden-hour/10481-2.jpg',
-      'assets/leblog/golden-hour/10481-3.jpg',
     
     ],
     colors: [
@@ -2961,9 +2954,6 @@ export const MOCK_PRODUCTS: Product[] = [
     images: [
       'assets/leblog/golden-hour/10584-1.jpg',
       'assets/leblog/golden-hour/10584-2.jpg',
-      'assets/leblog/golden-hour/10584-3.jpg',
-      'assets/leblog/golden-hour/10584-4.jpg',
-      'assets/leblog/golden-hour/10584-5.jpg',
     
     ],
     colors: [
@@ -3025,7 +3015,8 @@ export const MOCK_PRODUCTS: Product[] = [
     
     ],
     colors: [
-      { name: "Preto", hex: "#111111" }
+      { name: "Preto", hex: "#111111" },
+      { name: "Off White", hex: "#F5F0E6" },
     ],
     sizes: ["34", "36", "38", "40", "42"],
     stock: 5,
