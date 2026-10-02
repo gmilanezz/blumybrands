@@ -2631,10 +2631,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Blazer Fiorela",
     slug: "blazer-fiorela-10376",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Blazer",
     price: 1225.00,
-    description: "Blazer Fiorela 10376 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Blazer Fiorela 10376 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10376-1.jpg'
@@ -2653,10 +2653,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Calça Fiorela",
     slug: "calca-fiorela-10375",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Calça",
     price: 875.00,
-    description: "Calça Fiorela 10375 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Calça Fiorela 10375 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10375-1.jpg'
@@ -2675,10 +2675,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Camisa Adriana",
     slug: "camisa-adriana-10355",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Camisa",
     price: 1000.00,
-    description: "Camisa Adriana 10355 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Camisa Adriana 10355 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10355-1.jpg'
@@ -2697,10 +2697,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Bermuda Kate",
     slug: "bermuda-kate-10374",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Bermuda",
     price: 650.00,
-    description: "Bermuda Kate 10374 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Bermuda Kate 10374 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10374-1.jpg'
@@ -2719,10 +2719,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Camisa Patrícia",
     slug: "camisa-patricia-10384",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Camisa",
     price: 725.00,
-    description: "Camisa Patrícia 10384 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Camisa Patrícia 10384 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10384-1.jpg'
@@ -2741,10 +2741,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Corselet Patrícia",
     slug: "corselet-patricia-10383",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Corselet",
     price: 650.00,
-    description: "Corselet Patrícia 10383 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Corselet Patrícia 10383 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10383-1.jpg'
@@ -2763,10 +2763,10 @@ export const MOCK_PRODUCTS: Product[] = [
     name: "Calça Patrícia",
     slug: "calca-patricia-10385",
     brand: "LeBlog",
-    catalog: "Soft Edge - Summer Preview 27",
+    catalog: "Soft Edge",
     category: "Calça",
     price: 925.00,
-    description: "Calça Patrícia 10385 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
+    description: "Calça Patrícia 10385 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10385-1.jpg'
