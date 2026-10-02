@@ -2458,5 +2458,501 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: 5,
     isActive: true,
     createdAt: "2026-09-26"
+  },
+  {
+    id: 90,
+    code: "39842",
+    name: "Vestido Curto Paetê",
+    slug: "vestido-curto-paete-39842",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Vestido",
+    price: 540.00,
+    description: "Vestido Curto Paetê 39842 do catálogo Esmeral - Alto Verão 27.",
+    composition: "100% Poliéster",
+    images: [
+      'assets/esmeral/alto-verao-27/39842-1.jpg'
+    ],
+    colors: [
+      { name: "Prata", hex: "#C0C0C0" },
+      { name: "Dourado", hex: "#D4AF37" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 91,
+    code: "39820",
+    name: "Body com Detalhe nas Alças",
+    slug: "body-com-detalhe-nas-alcas-39820",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Body",
+    price: 300.00,
+    description: "Body com Detalhe nas Alças 39820 do catálogo Esmeral - Alto Verão 27.",
+    composition: "95% Poliamida 5% Elastano",
+    images: [
+      'assets/esmeral/alto-verao-27/39820-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" },
+      { name: "Castanho", hex: "#7A563A" },
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 92,
+    code: "39821",
+    name: "Vestido Degagê Cetim",
+    slug: "vestido-degage-cetim-39821",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Vestido",
+    price: 480.00,
+    description: "Vestido Degagê Cetim 39821 do catálogo Esmeral - Alto Verão 27.",
+    composition: "100% Poliéster",
+    images: [
+      'assets/esmeral/alto-verao-27/39821-1.jpg'
+    ],
+    colors: [
+      { name: "Bege", hex: "#D8C3A5" },
+      { name: "Vermelho", hex: "#B3202A" },
+      { name: "Marrom", hex: "#6B3E2E" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 93,
+    code: "39673",
+    name: "Body Um Ombro Tule",
+    slug: "body-um-ombro-tule-39673",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Body",
+    price: 232.00,
+    description: "Body Um Ombro Tule 39673 do catálogo Esmeral - Alto Verão 27.",
+    composition: "96% Poliéster 4% Elastano",
+    images: [
+      'assets/esmeral/alto-verao-27/39673-1.jpg'
+    ],
+    colors: [
+      { name: "Vermelho", hex: "#B3202A" },
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 94,
+    code: "39824",
+    name: "Blusa Peplum Renda",
+    slug: "blusa-peplum-renda-39824",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Blusa",
+    price: 200.00,
+    description: "Blusa Peplum Renda 39824 do catálogo Esmeral - Alto Verão 27.",
+    composition: "45% Poliamida 35% Algodão 20% Viscose",
+    images: [
+      'assets/esmeral/alto-verao-27/39824-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" },
+      { name: "Vermelho", hex: "#B3202A" },
+      { name: "Marrom", hex: "#6B3E2E" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 95,
+    code: "39822",
+    name: "Calça de Renda",
+    slug: "calca-de-renda-39822",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Calça",
+    price: 340.00,
+    description: "Calça de Renda 39822 do catálogo Esmeral - Alto Verão 27.",
+    composition: "45% Poliamida 35% Algodão 20% Viscose",
+    images: [
+      'assets/esmeral/alto-verao-27/39822-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" },
+      { name: "Vermelho", hex: "#B3202A" },
+      { name: "Marrom", hex: "#6B3E2E" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 96,
+    code: "39791",
+    name: "Macaquinho Alfaiataria",
+    slug: "macaquinho-alfaiataria-39791",
+    brand: "Esmeral",
+    catalog: "Alto Verão 27",
+    category: "Macaquinho",
+    price: 360.00,
+    description: "Macaquinho Alfaiataria 39791 do catálogo Esmeral - Alto Verão 27.",
+    composition: "93% Poliéster 7% Elastano",
+    images: [
+      'assets/esmeral/alto-verao-27/39791-1.jpg'
+    ],
+    colors: [
+      { name: "Preto", hex: "#111111" },
+      { name: "Off White", hex: "#F5F0E6" },
+      { name: "Vermelho", hex: "#B3202A" }
+    ],
+    sizes: ["P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 97,
+    code: "10376",
+    name: "Blazer Fiorela",
+    slug: "blazer-fiorela-10376",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Blazer",
+    price: 1225.00,
+    description: "Blazer Fiorela 10376 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10376-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 98,
+    code: "10375",
+    name: "Calça Fiorela",
+    slug: "calca-fiorela-10375",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Calça",
+    price: 875.00,
+    description: "Calça Fiorela 10375 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10375-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 99,
+    code: "10355",
+    name: "Camisa Adriana",
+    slug: "camisa-adriana-10355",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Camisa",
+    price: 1000.00,
+    description: "Camisa Adriana 10355 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10355-1.jpg'
+    ],
+    colors: [
+      { name: "Azure", hex: "#A7C7E7" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 100,
+    code: "10374",
+    name: "Bermuda Kate",
+    slug: "bermuda-kate-10374",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Bermuda",
+    price: 650.00,
+    description: "Bermuda Kate 10374 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10374-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 101,
+    code: "10384",
+    name: "Camisa Patrícia",
+    slug: "camisa-patricia-10384",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Camisa",
+    price: 725.00,
+    description: "Camisa Patrícia 10384 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10384-1.jpg'
+    ],
+    colors: [
+      { name: "Vichy", hex: "#F4C6CC" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 102,
+    code: "10383",
+    name: "Corselet Patrícia",
+    slug: "corselet-patricia-10383",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Corselet",
+    price: 650.00,
+    description: "Corselet Patrícia 10383 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10383-1.jpg'
+    ],
+    colors: [
+      { name: "Vichy", hex: "#F4C6CC" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 103,
+    code: "10385",
+    name: "Calça Patrícia",
+    slug: "calca-patricia-10385",
+    brand: "Le Blog",
+    catalog: "Soft Edge - Summer Preview 27",
+    category: "Calça",
+    price: 925.00,
+    description: "Calça Patrícia 10385 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/soft-edge/10385-1.jpg'
+    ],
+    colors: [
+      { name: "Vichy", hex: "#F4C6CC" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 104,
+    code: "10662",
+    name: "Blusa Magnolia",
+    slug: "blusa-magnolia-10662",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Blusa",
+    price: 801.00,
+    description: "Blusa Magnolia 10662 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10662-1.jpg'
+    ],
+    colors: [
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 105,
+    code: "10663",
+    name: "Calça Kate",
+    slug: "calca-kate-10663",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Calça",
+    price: 2220.00,
+    description: "Calça Kate 10663 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10663-1.jpg'
+    ],
+    colors: [
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 106,
+    code: "10482",
+    name: "Blusa Elis",
+    slug: "blusa-elis-10482",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Blusa",
+    price: 700.00,
+    description: "Blusa Elis 10482 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10482-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 107,
+    code: "10023",
+    name: "Calça Debbie",
+    slug: "calca-debbie-10023",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Calça",
+    price: 1200.00,
+    description: "Calça Debbie 10023 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10023-1.jpg'
+    ],
+    colors: [
+      { name: "Iced Blue", hex: "#B9D7EA" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 108,
+    code: "10481",
+    name: "Corselet Estela",
+    slug: "corselet-estela-10481",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Corselet",
+    price: 650.00,
+    description: "Corselet Estela 10481 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10481-1.jpg'
+    ],
+    colors: [
+      { name: "Butter", hex: "#F5E7A1" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 109,
+    code: "10584",
+    name: "Calça Estela",
+    slug: "calca-estela-10584",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Calça",
+    price: 825.00,
+    description: "Calça Estela 10584 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10584-1.jpg'
+    ],
+    colors: [
+      { name: "Butter", hex: "#F5E7A1" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 110,
+    code: "10489",
+    name: "Blazer Pietra",
+    slug: "blazer-pietra-10489",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Blazer",
+    price: 875.00,
+    description: "Blazer Pietra 10489 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10489-1.jpg'
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
+  },
+  {
+    id: 111,
+    code: "10488",
+    name: "Calça Pietra",
+    slug: "calca-pietra-10488",
+    brand: "Le Blog",
+    catalog: "Golden Hour",
+    category: "Calça",
+    price: 850.00,
+    description: "Calça Pietra 10488 do catálogo Le Blog - Golden Hour.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/leblog/golden-hour/10488-1.jpg'
+    ],
+    colors: [
+      { name: "Preto", hex: "#111111" }
+    ],
+    sizes: ["34", "36", "38", "40", "42"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-02"
   }
 ];
