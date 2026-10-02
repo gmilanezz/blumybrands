@@ -16,7 +16,7 @@ const LEGACY_BRANDS_KEY = 'admin-brands';
 const LEGACY_CATALOGS_KEY = 'admin-catalogs-by-brand';
 
 const DEFAULT_STATE: CatalogState = {
-  brands: ['Anne Fernandes', 'Corgie', 'LeBlog', 'Rock Lola', 'Uzee',  'Zen',],
+  brands: ['Anne Fernandes', 'Corgie', 'Esmeral', 'LeBlog', 'Rock Lola', 'Uzee',  'Zen',],
   catalogs: [
     {
       brand: 'Uzee',

@@ -2630,11 +2630,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10376",
     name: "Blazer Fiorela",
     slug: "blazer-fiorela-10376",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Blazer",
     price: 1225.00,
-    description: "Blazer Fiorela 10376 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Blazer Fiorela 10376 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10376-1.jpg'
@@ -2652,11 +2652,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10375",
     name: "Calça Fiorela",
     slug: "calca-fiorela-10375",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Calça",
     price: 875.00,
-    description: "Calça Fiorela 10375 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Calça Fiorela 10375 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10375-1.jpg'
@@ -2674,11 +2674,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10355",
     name: "Camisa Adriana",
     slug: "camisa-adriana-10355",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Camisa",
     price: 1000.00,
-    description: "Camisa Adriana 10355 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Camisa Adriana 10355 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10355-1.jpg'
@@ -2696,11 +2696,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10374",
     name: "Bermuda Kate",
     slug: "bermuda-kate-10374",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Bermuda",
     price: 650.00,
-    description: "Bermuda Kate 10374 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Bermuda Kate 10374 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10374-1.jpg'
@@ -2718,11 +2718,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10384",
     name: "Camisa Patrícia",
     slug: "camisa-patricia-10384",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Camisa",
     price: 725.00,
-    description: "Camisa Patrícia 10384 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Camisa Patrícia 10384 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10384-1.jpg'
@@ -2740,11 +2740,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10383",
     name: "Corselet Patrícia",
     slug: "corselet-patricia-10383",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Corselet",
     price: 650.00,
-    description: "Corselet Patrícia 10383 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Corselet Patrícia 10383 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10383-1.jpg'
@@ -2762,11 +2762,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10385",
     name: "Calça Patrícia",
     slug: "calca-patricia-10385",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Soft Edge - Summer Preview 27",
     category: "Calça",
     price: 925.00,
-    description: "Calça Patrícia 10385 do catálogo Le Blog - Soft Edge - Summer Preview 27.",
+    description: "Calça Patrícia 10385 do catálogo LeBlog - Soft Edge - Summer Preview 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/soft-edge/10385-1.jpg'
@@ -2784,11 +2784,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10662",
     name: "Blusa Magnolia",
     slug: "blusa-magnolia-10662",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Blusa",
     price: 801.00,
-    description: "Blusa Magnolia 10662 do catálogo Le Blog - Golden Hour.",
+    description: "Blusa Magnolia 10662 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10662-1.jpg'
@@ -2806,11 +2806,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10663",
     name: "Calça Kate",
     slug: "calca-kate-10663",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Calça",
     price: 2220.00,
-    description: "Calça Kate 10663 do catálogo Le Blog - Golden Hour.",
+    description: "Calça Kate 10663 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10663-1.jpg'
@@ -2828,11 +2828,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10482",
     name: "Blusa Elis",
     slug: "blusa-elis-10482",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Blusa",
     price: 700.00,
-    description: "Blusa Elis 10482 do catálogo Le Blog - Golden Hour.",
+    description: "Blusa Elis 10482 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10482-1.jpg'
@@ -2850,11 +2850,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10023",
     name: "Calça Debbie",
     slug: "calca-debbie-10023",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Calça",
     price: 1200.00,
-    description: "Calça Debbie 10023 do catálogo Le Blog - Golden Hour.",
+    description: "Calça Debbie 10023 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10023-1.jpg'
@@ -2872,11 +2872,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10481",
     name: "Corselet Estela",
     slug: "corselet-estela-10481",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Corselet",
     price: 650.00,
-    description: "Corselet Estela 10481 do catálogo Le Blog - Golden Hour.",
+    description: "Corselet Estela 10481 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10481-1.jpg'
@@ -2894,11 +2894,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10584",
     name: "Calça Estela",
     slug: "calca-estela-10584",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Calça",
     price: 825.00,
-    description: "Calça Estela 10584 do catálogo Le Blog - Golden Hour.",
+    description: "Calça Estela 10584 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10584-1.jpg'
@@ -2916,11 +2916,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10489",
     name: "Blazer Pietra",
     slug: "blazer-pietra-10489",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Blazer",
     price: 875.00,
-    description: "Blazer Pietra 10489 do catálogo Le Blog - Golden Hour.",
+    description: "Blazer Pietra 10489 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10489-1.jpg'
@@ -2938,11 +2938,11 @@ export const MOCK_PRODUCTS: Product[] = [
     code: "10488",
     name: "Calça Pietra",
     slug: "calca-pietra-10488",
-    brand: "Le Blog",
+    brand: "LeBlog",
     catalog: "Golden Hour",
     category: "Calça",
     price: 850.00,
-    description: "Calça Pietra 10488 do catálogo Le Blog - Golden Hour.",
+    description: "Calça Pietra 10488 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
       'assets/leblog/golden-hour/10488-1.jpg'
