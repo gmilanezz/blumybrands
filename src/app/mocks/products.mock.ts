@@ -2471,7 +2471,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Curto Paetê 39842 do catálogo Esmeral - Alto Verão 27.",
     composition: "100% Poliéster",
     images: [
-      'assets/esmeral/alto-verao-27/39842-1.jpg'
+      'assets/esmeral/alto-verao-27/39842-1.jpg',
+      'assets/esmeral/alto-verao-27/39842-2.jpg',
+      'assets/esmeral/alto-verao-27/39842-3.jpg',
+    
     ],
     colors: [
       { name: "Prata", hex: "#C0C0C0" },
@@ -2494,7 +2497,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body com Detalhe nas Alças 39820 do catálogo Esmeral - Alto Verão 27.",
     composition: "95% Poliamida 5% Elastano",
     images: [
-      'assets/esmeral/alto-verao-27/39820-1.jpg'
+      'assets/esmeral/alto-verao-27/39820-1.jpg',
+      'assets/esmeral/alto-verao-27/39820-2.jpg',
+      'assets/esmeral/alto-verao-27/39820-3.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" },
@@ -2518,7 +2524,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Vestido Degagê Cetim 39821 do catálogo Esmeral - Alto Verão 27.",
     composition: "100% Poliéster",
     images: [
-      'assets/esmeral/alto-verao-27/39821-1.jpg'
+      'assets/esmeral/alto-verao-27/39821-1.jpg',
+      'assets/esmeral/alto-verao-27/39821-2.jpg',
+      'assets/esmeral/alto-verao-27/39821-3.jpg',
+    
     ],
     colors: [
       { name: "Bege", hex: "#D8C3A5" },
@@ -2542,7 +2551,8 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Body Um Ombro Tule 39673 do catálogo Esmeral - Alto Verão 27.",
     composition: "96% Poliéster 4% Elastano",
     images: [
-      'assets/esmeral/alto-verao-27/39673-1.jpg'
+      'assets/esmeral/alto-verao-27/39673-1.jpg',
+    
     ],
     colors: [
       { name: "Vermelho", hex: "#B3202A" },
@@ -2565,7 +2575,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Peplum Renda 39824 do catálogo Esmeral - Alto Verão 27.",
     composition: "45% Poliamida 35% Algodão 20% Viscose",
     images: [
-      'assets/esmeral/alto-verao-27/39824-1.jpg'
+      'assets/esmeral/alto-verao-27/39824-1.jpg',
+      'assets/esmeral/alto-verao-27/39824-2.jpg',
+      'assets/esmeral/alto-verao-27/39824-3.jpg',
+      'assets/esmeral/alto-verao-27/39824-4.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" },
@@ -2589,7 +2603,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça de Renda 39822 do catálogo Esmeral - Alto Verão 27.",
     composition: "45% Poliamida 35% Algodão 20% Viscose",
     images: [
-      'assets/esmeral/alto-verao-27/39822-1.jpg'
+      'assets/esmeral/alto-verao-27/39822-1.jpg',
+      'assets/esmeral/alto-verao-27/39822-2.jpg',
+      'assets/esmeral/alto-verao-27/39822-3.jpg',
+      'assets/esmeral/alto-verao-27/39822-4.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" },
@@ -2613,7 +2631,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Macaquinho Alfaiataria 39791 do catálogo Esmeral - Alto Verão 27.",
     composition: "93% Poliéster 7% Elastano",
     images: [
-      'assets/esmeral/alto-verao-27/39791-1.jpg'
+      'assets/esmeral/alto-verao-27/39791-1.jpg',
+      'assets/esmeral/alto-verao-27/39791-2.jpg',
+    
     ],
     colors: [
       { name: "Preto", hex: "#111111" },
@@ -2637,7 +2657,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blazer Fiorela 10376 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10376-1.jpg'
+      'assets/leblog/soft-edge/10376-1.jpg',
+      'assets/leblog/soft-edge/10376-2.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" }
@@ -2659,7 +2681,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Fiorela 10375 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10375-1.jpg'
+      'assets/leblog/soft-edge/10375-1.jpg',
+      'assets/leblog/soft-edge/10375-2.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" }
@@ -2681,7 +2705,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Camisa Adriana 10355 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10355-1.jpg'
+      'assets/leblog/soft-edge/10355-1.jpg',
+      'assets/leblog/soft-edge/10355-2.jpg',
+      'assets/leblog/soft-edge/10355-3.jpg',
+    
     ],
     colors: [
       { name: "Azure", hex: "#A7C7E7" }
@@ -2703,7 +2730,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Bermuda Kate 10374 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10374-1.jpg'
+      'assets/leblog/soft-edge/10374-1.jpg',
+      'assets/leblog/soft-edge/10374-2.jpg',
+      'assets/leblog/soft-edge/10374-3.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" }
@@ -2725,7 +2755,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Camisa Patrícia 10384 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10384-1.jpg'
+      'assets/leblog/soft-edge/10384-1.jpg',
+      'assets/leblog/soft-edge/10384-2.jpg',
+    
     ],
     colors: [
       { name: "Vichy", hex: "#F4C6CC" }
@@ -2747,7 +2779,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Corselet Patrícia 10383 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10383-1.jpg'
+      'assets/leblog/soft-edge/10383-1.jpg',
+      'assets/leblog/soft-edge/10383-2.jpg',
+      'assets/leblog/soft-edge/10383-3.jpg',
+      'assets/leblog/soft-edge/10383-4.jpg',
+    
     ],
     colors: [
       { name: "Vichy", hex: "#F4C6CC" }
@@ -2769,7 +2805,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Patrícia 10385 do catálogo LeBlog - Soft Edge.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/soft-edge/10385-1.jpg'
+      'assets/leblog/soft-edge/10385-1.jpg',
+      'assets/leblog/soft-edge/10385-2.jpg',
+      'assets/leblog/soft-edge/10385-3.jpg',
+    
     ],
     colors: [
       { name: "Vichy", hex: "#F4C6CC" }
@@ -2791,7 +2830,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Magnolia 10662 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10662-1.jpg'
+      'assets/leblog/golden-hour/10662-1.jpg',
+      'assets/leblog/golden-hour/10662-2.jpg',
+      'assets/leblog/golden-hour/10662-3.jpg',
+      'assets/leblog/golden-hour/10662-4.jpg',
+    
     ],
     colors: [
       { name: "Preto", hex: "#111111" }
@@ -2813,7 +2856,11 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Kate 10663 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10663-1.jpg'
+      'assets/leblog/golden-hour/10663-1.jpg',
+      'assets/leblog/golden-hour/10663-2.jpg',
+      'assets/leblog/golden-hour/10663-3.jpg',
+      'assets/leblog/golden-hour/10663-4.jpg',
+    
     ],
     colors: [
       { name: "Preto", hex: "#111111" }
@@ -2835,7 +2882,13 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blusa Elis 10482 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10482-1.jpg'
+      'assets/leblog/golden-hour/10482-1.jpg',
+      'assets/leblog/golden-hour/10482-2.jpg',
+      'assets/leblog/golden-hour/10482-3.jpg',
+      'assets/leblog/golden-hour/10482-4.jpg',
+      'assets/leblog/golden-hour/10482-5.jpg',
+      'assets/leblog/golden-hour/10482-6.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" }
@@ -2857,7 +2910,9 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Debbie 10023 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10023-1.jpg'
+      'assets/leblog/golden-hour/10023-1.jpg',
+      'assets/leblog/golden-hour/10023-2.jpg',
+    
     ],
     colors: [
       { name: "Iced Blue", hex: "#B9D7EA" }
@@ -2879,7 +2934,10 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Corselet Estela 10481 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10481-1.jpg'
+      'assets/leblog/golden-hour/10481-1.jpg',
+      'assets/leblog/golden-hour/10481-2.jpg',
+      'assets/leblog/golden-hour/10481-3.jpg',
+    
     ],
     colors: [
       { name: "Butter", hex: "#F5E7A1" }
@@ -2901,7 +2959,12 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Estela 10584 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10584-1.jpg'
+      'assets/leblog/golden-hour/10584-1.jpg',
+      'assets/leblog/golden-hour/10584-2.jpg',
+      'assets/leblog/golden-hour/10584-3.jpg',
+      'assets/leblog/golden-hour/10584-4.jpg',
+      'assets/leblog/golden-hour/10584-5.jpg',
+    
     ],
     colors: [
       { name: "Butter", hex: "#F5E7A1" }
@@ -2923,7 +2986,12 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Blazer Pietra 10489 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10489-1.jpg'
+      'assets/leblog/golden-hour/10489-1.jpg',
+      'assets/leblog/golden-hour/10489-2.jpg',
+      'assets/leblog/golden-hour/10489-3.jpg',
+      'assets/leblog/golden-hour/10489-4.jpg',
+      'assets/leblog/golden-hour/10489-5.jpg',
+    
     ],
     colors: [
       { name: "Off White", hex: "#F5F0E6" }
@@ -2945,7 +3013,16 @@ export const MOCK_PRODUCTS: Product[] = [
     description: "Calça Pietra 10488 do catálogo LeBlog - Golden Hour.",
     composition: "Não informado no catálogo",
     images: [
-      'assets/leblog/golden-hour/10488-1.jpg'
+      'assets/leblog/golden-hour/10488-1.jpg',
+      'assets/leblog/golden-hour/10488-2.jpg',
+      'assets/leblog/golden-hour/10488-3.jpg',
+      'assets/leblog/golden-hour/10488-4.jpg',
+      'assets/leblog/golden-hour/10488-5.jpg',
+      'assets/leblog/golden-hour/10488-6.jpg',
+      'assets/leblog/golden-hour/10488-7.jpg',
+      'assets/leblog/golden-hour/10488-8.jpg',
+      'assets/leblog/golden-hour/10488-9.jpg',
+    
     ],
     colors: [
       { name: "Preto", hex: "#111111" }
