@@ -29,23 +29,23 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   readonly slides = [
     {
+      desktopImage: 'assets/leblog/golden-hour/10481-1.jpg',
+      mobileImage: 'assets/leblog/golden-hour/10481-1.jpg',
+      alt: 'Uzee Couro - Inverno 26',
+      link: '/catalogo/Uzee/Inverno 26'
+    },
+    {
       desktopImage: 'assets/annefernandes/theannfclub/TP3002-1.jpg',
       mobileImage: 'assets/annefernandes/theannfclub/TP3002-1.jpg',
       alt: 'Anne Fernandes - The Annf Club',
       link: '/catalogo/Anne Fernandes/The Annf Club'
     },
     {
-      desktopImage: 'assets/zen/catalogo1/51388-1.jpg',
-      mobileImage: 'assets/zen/catalogo1/51388-1.jpg',
+      desktopImage: 'assets/leblog/soft-edge/10375-1.jpg',
+      mobileImage: 'assets/leblog/soft-edge/10375-1.jpg',
       alt: 'Zen - Catálogo 1',
       link: '/catalogo/Zen/Catálogo 1'
     },
-    {
-      desktopImage: 'assets/uzee-couro/156-1.jpg',
-      mobileImage: 'assets/uzee-couro/156-1.jpg',
-      alt: 'Uzee Couro - Inverno 26',
-      link: '/catalogo/Uzee/Inverno 26'
-    }
   ];
 
   private readonly heroImages = [
