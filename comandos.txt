@@ -1,2 +1,4 @@
 npm run build -- --configuration production --base-href /
 npx angular-cli-ghpages --dir=dist/blumybrands/browser --cname=blumybrands.com.br
+
+npm run deploy
