@@ -3039,14 +3039,11 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Blusa",
-    price: 1199.80,
+    price: 1200.00,
     description: "Blusa Bianca BLU2365C do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/ln/st-tropez/BLU2365C-1.jpg',
-      'assets/ln/st-tropez/BLU2365C-2.jpg',
-      'assets/ln/st-tropez/BLU2365C-3.jpg',
-      'assets/ln/st-tropez/BLU2365C-4.jpg',
     ],
     colors: [
       { name: "Rosa Claro", hex: "#E8C8C8" },
@@ -3064,7 +3061,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Vestido",
-    price: 2399.80,
+    price: 2400.00,
     description: "Vestido Monaco VES2389L do catálogo LN - St. Tropez Summer 27.",
     composition: "Estampa exclusiva LN",
     images: [
@@ -3089,7 +3086,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Conjunto",
-    price: 2599.80,
+    price: 2600.00,
     description: "Conjunto Ilha CJC2397J do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
@@ -3113,7 +3110,7 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Vestido",
-    price: 1999.80,
+    price: 2000.00,
     description: "Vestido Marbella VES2383J do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
@@ -3137,14 +3134,13 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Conjunto",
-    price: 2799.80,
+    price: 2800.00,
     description: "Conjunto Alba CJS2155D do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/ln/st-tropez/CJS2155D-1.jpg',
       'assets/ln/st-tropez/CJS2155D-2.jpg',
       'assets/ln/st-tropez/CJS2155D-3.jpg',
-      'assets/ln/st-tropez/CJS2155D-4.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#E7A9B4" },
@@ -3162,12 +3158,11 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Blusa",
-    price: 1119.80,
+    price: 1120.00,
     description: "Blusa Duna BLU2363E do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/ln/st-tropez/BLU2363E-1.jpg',
-      'assets/ln/st-tropez/BLU2363E-2.jpg',
     ],
     colors: [
       { name: "Rosa Claro", hex: "#E8C8C8" },
@@ -3185,15 +3180,13 @@ export const MOCK_PRODUCTS: Product[] = [
     brand: "LN",
     catalog: "St. Tropez",
     category: "Conjunto",
-    price: 2199.80,
+    price: 2200.00,
     description: "Conjunto Cherie CJS2362E do catálogo LN - St. Tropez Summer 27.",
     composition: "Não informado no catálogo",
     images: [
       'assets/ln/st-tropez/CJS2362E-1.jpg',
       'assets/ln/st-tropez/CJS2362E-2.jpg',
       'assets/ln/st-tropez/CJS2362E-3.jpg',
-      'assets/ln/st-tropez/CJS2362E-4.jpg',
-      'assets/ln/st-tropez/CJS2362E-5.jpg',
     ],
     colors: [
       { name: "Rosa", hex: "#E7A9B4" },
@@ -3553,5 +3546,30 @@ export const MOCK_PRODUCTS: Product[] = [
     stock: 5,
     isActive: true,
     createdAt: "2026-10-02"
+  },
+  {
+    id: 133,
+    code: "BLU2395O",
+    name: "Blusa Glenda",
+    slug: "blusa-glenda-blu2395o",
+    brand: "LN",
+    catalog: "St. Tropez",
+    category: "Blusa",
+    price: 800.00,
+    description: "Blusa Glenda BLU2395O do catálogo LN - St. Tropez Summer 27.",
+    composition: "Não informado no catálogo",
+    images: [
+      'assets/ln/st-tropez/BLU2395O-1.jpg',
+      'assets/ln/st-tropez/BLU2395O-2.jpg',
+      'assets/ln/st-tropez/BLU2395O-3.jpg',
+      'assets/ln/st-tropez/BLU2395O-4.jpg',
+    ],
+    colors: [
+      { name: "Off White", hex: "#F5F0E6" },
+    ],
+    sizes: ["PP", "P", "M", "G"],
+    stock: 5,
+    isActive: true,
+    createdAt: "2026-10-04"
   }
 ];
