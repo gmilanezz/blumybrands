@@ -319,9 +319,8 @@
   transform: scale(1.08);
 }
 
-/* A busca ocupa o próprio header e entra deslizando pela direita. */
 .search-overlay {
-  background: #4A035F;
+  background: #000;
   height: 78px;
   left: 0;
   opacity: 0;
@@ -358,7 +357,7 @@
 .search-field {
   align-items: center;
   border-bottom: 1px solid rgba(247, 233, 207, .55);
-  color: #F7E9CF;
+  color: #D8C48A;
   display: flex;
   gap: 14px;
   width: 100%;
@@ -392,7 +391,6 @@
   transform: scale(1.08);
 }
 
-/* Resultados em uma faixa larga, alinhada ao header, sem card flutuante. */
 .search-results-bar {
   background: #fff;
   box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
@@ -442,7 +440,7 @@
 }
 
 .search-result-info strong {
-  color: #4A035F;
+  color: #000;
   font-size: 14px;
 }
 
